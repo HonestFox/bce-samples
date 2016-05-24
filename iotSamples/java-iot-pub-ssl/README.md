@@ -117,3 +117,11 @@ client.publish(TOPIC, message);
 > 在发布消息时，默认使用QoS1。  
 > 如果需要更改的话，可以调用MqttMessage的setQos方法进行设置。  
 > 需要注意的是：**百度IoT服务暂时不支持QoS2。**
+
+---
+
+**注意：当不再需要发布消息时，需要与服务端断开连接。**
+
+```java
+client.disconnect();
+```
