@@ -8,7 +8,7 @@
 
 ## 使用方法：
 
-直接运行入口方法：App:main，执行过程（IntelliJ IDEA）类似于：
+执行入口方法：`App:main`，可以看到类似于下面的输出内容（运行环境为IntelliJ IDEA）：
 
 ```
 五月 24, 2016 4:45:57 下午 com.example.App main
@@ -80,7 +80,7 @@ MqttClient client = new MqttClient(ENDPOINT, MqttClient.generateClientId());
 client.connect(createMqttConnectOptions(USERNAME, PASSWORD));
 ```
 
-在连接到IoT服务端时，需要配置MqttConnectOptions和SSLContext。
+在连接到IoT服务端时，需要配置`MqttConnectOptions`和`SSLContext`。
 
 ```java
 private static MqttConnectOptions createMqttConnectOptions(String username, String password) throws Exception {
@@ -115,7 +115,13 @@ client.publish(TOPIC, message);
 ```
 
 > 在发布消息时，默认使用QoS1。  
-> 如果需要更改的话，可以调用MqttMessage的setQos方法进行设置。  
+> 如果需要更改的话，可以使用如下代码：
+> 
+> ```java
+> int qos = 0;
+> message.setQos(qos);
+> ```
+>   
 > 需要注意的是：**百度IoT服务暂时不支持QoS2。**
 
 ---
