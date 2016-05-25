@@ -11,14 +11,14 @@ import java.security.KeyStore;
 import java.util.logging.Logger;
 
 /**
- * IoT发布消息(使用SSL连接方式)
+ * 本程序在角色上为一个IoT客户端, 它通过SSL方式连接到百度IoT服务端, 然后向某个主题发布消息。
  */
 public class App {
 
     private static Logger logger = Logger.getLogger(App.class.getName());
 
     public static void main(String[] args) throws Exception {
-        final String ENDPOINT = "ssl://YOUR_ENDPOINT_NAME.mqtt.iot.gz.baidubce.com:1884";  // IoT实例的地址(SSL方式)
+        final String ENDPOINT = "ssl://YOUR_ENDPOINT_NAME.mqtt.iot.gz.baidubce.com:1884";  // IoT实例的地址(SSL连接方式)
         final String USERNAME = "YOUR_ENDPOINT_NAME/YOUR_THING_NAME";  // IoT设备的全名
         final String PASSWORD = "";  // 创建IoT身份时生成的密钥
         final String TOPIC = "YOUR_TOPIC_NAME";  // 创建IoT策略时填写的主题, 需要有PUB权限。
