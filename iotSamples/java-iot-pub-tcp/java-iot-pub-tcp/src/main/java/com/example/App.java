@@ -15,10 +15,10 @@ public class App {
     private static Logger logger = Logger.getLogger(App.class.getName());
 
     public static void main(String[] args) throws MqttException {
-        final String ENDPOINT = "tcp://food.mqtt.iot.gz.baidubce.com:1883";  // IoT实例的地址(SSL方式)
-        final String USERNAME = "food/food";  // IoT设备的全名
-        final String PASSWORD = "QlV/6s5738I0nHmVHGwzGK+DU02Fb6bR9/z69i9kriQ=";  // 创建IoT身份时生成的密钥
-        final String TOPIC = "temperature/k2/f5/c";  // 创建IoT策略时填写的主题, 需要有PUB权限。
+        final String ENDPOINT = "tcp://YOUR_ENDPOINT_NAME.mqtt.iot.gz.baidubce.com:1883";  // IoT实例的地址(SSL方式)
+        final String USERNAME = "YOUR_ENDPOINT_NAME/YOUR_THING_NAME";  // IoT设备的全名
+        final String PASSWORD = "身份对应的密钥";  // 创建IoT身份时生成的密钥
+        final String TOPIC = "YOUR_TOPIC";  // 创建IoT策略时填写的主题, 需要有PUB权限。
 
         MqttClient client = new MqttClient(ENDPOINT, MqttClient.generateClientId());
         client.connect(createMqttConnectOptions(USERNAME, PASSWORD));
