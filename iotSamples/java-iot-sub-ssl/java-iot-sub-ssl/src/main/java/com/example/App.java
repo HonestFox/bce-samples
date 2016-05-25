@@ -10,7 +10,7 @@ import java.security.KeyStore;
 import java.util.logging.Logger;
 
 /**
- * Hello world!
+ * 本程序在角色上为IoT客户端, 它通过SSL方式连接到百度IoT服务端, 订阅某个主题并接收服务器发来的消息。
  */
 public class App {
 
