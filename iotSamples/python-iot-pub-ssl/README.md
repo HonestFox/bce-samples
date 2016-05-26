@@ -74,7 +74,7 @@ TOPIC = "temperature/k2/f5/c"  # 创建IoT策略时配置的主题, 需要有发
 
     > “SSL认证文件”的路径。
     >
-    > 在使用SSL方式连接到百度IoT服务端时，需要提供SSL认证文件`root_cert.gem`。该文件可以在[百度开放云IoT: Python代码实例](https://bce.baidu.com/doc/IOT/IOTService.html#python.E4.BB.A3.E7.A0.81.E7.A4.BA.E4.BE.8B)页面下载。
+    > 在使用SSL方式连接到百度IoT服务端时，需要提供SSL认证文件`root_cert.pem`。该文件可以在[百度开放云IoT: Python代码实例](https://bce.baidu.com/doc/IOT/IOTService.html#python.E4.BB.A3.E7.A0.81.E7.A4.BA.E4.BE.8B)页面下载。
 
 * TOPIC
 
