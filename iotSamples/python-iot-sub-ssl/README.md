@@ -116,12 +116,3 @@ client.subscribe(topic=TOPIC, qos=1)
 > 需要注意的是：**百度IoT服务暂时不支持QoS2。**
 
 当客户端接收到新消息时，`on_message`函数会被调用。我们可以在该函数内处理消息。
-
----
-
-注意：
-
-```python
-client.loop_stop()
-client.disconnect()
-```
