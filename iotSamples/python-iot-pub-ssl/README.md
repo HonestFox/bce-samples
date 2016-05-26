@@ -103,7 +103,9 @@ client.username_pw_set(USERNAME, PASSWORD)
 client.connect(host=ENDPOINT, port=PORT)
 client.loop_start()
 
-client.publish(topic=TOPIC, payload="123", qos=1)
+for count in range(1, 11):
+    time.sleep(1)
+    client.publish(topic=TOPIC, payload=count, qos=1)
 ```
 
 > 如果在调用`publish`方法时未提供`qos`参数，则默认使用QoS0。  
