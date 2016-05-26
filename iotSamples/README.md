@@ -2,43 +2,13 @@
 
 项目命名规则：
 
-* `java-iot-pub-ssl`
-    * java：编程语言为Java。
-    * iot：云服务为IoT。
-    * pub：发布（publish）消息。
-    * ssl：使用SSL连接方式。
-* `java-iot-sub-ssl`
-    * java：编程语言为Java。
-    * iot：云服务为IoT。
-    * sub：订阅（subscribe）消息。
-    * ssl：使用SSL连接方式。
-* `java-iot-pub-tcp`
-    * java：编程语言为Java。
-    * iot：云服务为IoT。
-    * pub：发布（publish）消息。
-    * tcp：使用TCP连接方式。
-* `java-iot-sub-tcp`
-    * java：编程语言为Java。
-    * iot：云服务为IoT。
-    * sub：订阅（subscribe）消息。
-    * tcp：使用TCP连接方式。
-* `python-iot-pub-ssl`
-    * python: 编程语言为Python。
-    * iot：云服务为IoT。
-    * pub：发布（publish）消息。
-    * ssl：使用SSL连接方式。
-* `python-iot-sub-ssl`
-    * python：编程语言为Python。
-    * iot：云服务为IoT。
-    * sub：订阅（subscribe）消息。
-    * ssl：使用SSL连接方式。
-* `python-iot-pub-tcp`
-    * python：编程语言为Python。
-    * iot：云服务为IoT。
-    * pub：发布（publish）消息。
-    * tcp：使用TCP连接方式。
-* `python-iot-sub-tcp`
-    * python：编程语言为Python。
-    * iot：云服务为IoT。
-    * sub：订阅（subscribe）消息。
-    * tcp：使用TCP连接方式。
+| 项目名称 | 编程语言 | 云服务 | 动作 | 连接方式 |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| java-iot-pub-ssl | Java | IoT | 发布消息（publish） | SSL |
+| java-iot-sub-ssl | Java | IoT | 订阅消息（subscribe）| SSL |
+| java-iot-pub-tcp | Java | IoT | 发布消息（publish） | TCP |
+| java-iot-sub-tcp | Java | IoT | 订阅消息（subscribe） | TCP |
+| python-iot-pub-ssl | Python | IoT | 发布消息（publish） | SSL |
+| python-iot-sub-ssl | Python | IoT | 订阅消息（subscribe） | SSL |
+| python-iot-pub-tcp | Python | IoT | 发布消息（publish） | TCP |
+| python-iot-sub-tcp | Python | IoT | 订阅消息（subscribe） | TCP |
