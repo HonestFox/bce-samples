@@ -4,13 +4,13 @@ import paho.mqtt.client as mqtt
 import time
 
 # 配置IoT
-ENDPOINT = "food.mqtt.iot.gz.baidubce.com"  # IoT实例的地址
+ENDPOINT = "YOUR_ENDPOINT_NAME.mqtt.iot.gz.baidubce.com"  # IoT实例的地址
 PORT = 1883  # IoT实例地址的端口号
 
-USERNAME = "food/food"  # IoT设备的全名
-PASSWORD = "QlV/6s5738I0nHmVHGwzGK+DU02Fb6bR9/z69i9kriQ="  # 创建IoT身份时生成的密钥
+USERNAME = "YOUR_ENDPOINT_NAME/YOUR_THING_NAME"  # IoT设备的全名
+PASSWORD = "身份对应的密钥"  # 创建IoT身份时生成的密钥
 
-TOPIC = "temperature/k2/f5/c"  # 创建IoT策略时配置的主题, 需要有发布(PUB)权限).
+TOPIC = "YOUR_TOPIC_NAME"  # 创建IoT策略时配置的主题, 需要有发布(PUB)权限).
 
 # 保存所有已经发布的消息
 publishedMessages = {}
