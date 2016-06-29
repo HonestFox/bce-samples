@@ -1,5 +1,16 @@
 # java-sms-getTemplateList
 
+## 用途：
+
+获取短信模板列表，其中每一个元素代表一个短信模板，每个模板包含以下内容：
+
+* templateId -- 模板ID
+* name -- 模板名
+* content -- 模板内容
+* status -- 模板状态（VALID/INVALID）
+* createTime -- 模板的创建时间
+* updateTime -- 模板的更新时间
+
 ## 使用方法：
 
 * 第一步：在代码中配置AK/SK。
@@ -34,11 +45,7 @@ SmsClient client = new SmsClient(configuration);
 // 获得短信模板
 ListTemplateResponse response = client.listTemplate(new SmsRequest());
 List<GetTemplateDetailResponse> templates = response.getTemplateList();
-```
 
-### 第四步：解析每一个短信模板，并输出其信息。
-
-```java
 // 输出每一个短信模板的信息
 for (GetTemplateDetailResponse template : templates) {
     logger.info(template.toString());

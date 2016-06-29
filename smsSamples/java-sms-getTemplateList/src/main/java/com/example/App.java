@@ -12,7 +12,21 @@ import org.slf4j.LoggerFactory;
 import java.util.List;
 
 /**
- * Hello world!
+ * 获取短信模板列表
+ *
+ * 所用接口:
+ *      SmsClient
+ *      List<GetTemplateDetailResponse> getTemplateList();
+ *
+ * 查询结果:
+ *      一个列表, 其中每个元素代表一个短信模板。
+ *      每个短信模板中包含以下信息:
+ *          templateId -- 模板ID
+ *          name -- 模板名
+ *          content -- 模板内容
+ *          status -- 模板状态(VALID/INVALID)
+ *          createTime -- 模板的创建时间
+ *          updateTime -- 模板的更新时间
  */
 public class App {
 
