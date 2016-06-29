@@ -9,4 +9,5 @@
 | java-sms-getTemplateList | Java | SMS | 获取短信模板列表 |
 | java-sms-getTemplate | Java | SMS | 获取短信模板信息 |
 | java-sms-queryQuota | Java | SMS | 查询配额 |
+| java-sms-receiverStatus | Java | SMS | 查询单终端用户的短信信息 |
 | php-sms-sendMessage | PHP | SMS | 发送短信 |
