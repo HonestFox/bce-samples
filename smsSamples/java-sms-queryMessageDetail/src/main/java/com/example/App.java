@@ -14,7 +14,17 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Hello world!
+ * 查询短信信息
+ *
+ * 所用接口:
+ *      SmsClient
+ *      QueryMessageDetailResponse queryMessageDetail(QueryMessageDetailRequest);
+ *
+ * 查询结果:
+ *      messageId -- 短信ID
+ *      content -- 短信内容
+ *      receiver -- 短信接收者的手机号码
+ *      sendTime -- 短信的发送时间
  */
 public class App {
 
