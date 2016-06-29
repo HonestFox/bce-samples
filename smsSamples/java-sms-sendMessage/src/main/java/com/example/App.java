@@ -12,7 +12,16 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * 使用 SMS Java SDK 发送短信
+ * 发送短信
+ *
+ * 所用接口:
+ *      SmsClient
+ *      SendMessageResponse sendMessage(SendMessageRequest);
+ *
+ * 返回结果:
+ *      SendMessageResponse, 包括:
+ *          messageId -- 短信ID(发送短信的流水号)
+ *          sendStat -- 短信发送状态
  */
 public class App {
 
@@ -40,6 +49,6 @@ public class App {
 
         // 发送短信
         SendMessageResponse response = client.sendMessage(request);
-        logger.info(response.getMessageId());
+        logger.info("短信流水号: " + response.getMessageId());
     }
 }

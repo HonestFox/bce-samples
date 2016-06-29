@@ -1,5 +1,9 @@
 # java-sms-send
 
+## 用途：
+
+发送短信。
+
 ## 使用说明：
 
 * 第一步：在代码中配置AK/SK、短信模板ID、模板参数值、接收者手机号码。
@@ -55,4 +59,5 @@ request.setReceiver(phoneNumbers);
 
 ```java
 SendMessageResponse response = client.sendMessage(request);
+logger.info("短信流水号: " + response.getMessageId());
 ```
