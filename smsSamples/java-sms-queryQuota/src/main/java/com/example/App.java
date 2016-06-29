@@ -9,7 +9,16 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Hello world!
+ * 查询配额信息
+ *
+ * 所用接口:
+ *      SmsClient
+ *      QueryQuotaResponse queryQuota(SmsRequest);
+ *
+ * 查询结果:
+ *      maxSendPerDay -- 单日发送配额
+ *      maxReceiverPerPhoneNumberDay -- 单日单终端接收配额
+ *      sentToday -- 今日已发送的短信数量
  */
 public class App {
 

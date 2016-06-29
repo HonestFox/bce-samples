@@ -1,5 +1,13 @@
 # java-sms-queryQuota
 
+## 用途：
+
+查询配额，主要包括：
+
+* maxSendPerDay -- 单日发送配额
+* maxReceiverPerPhoneNumberDay -- 单日单终端的接收配额
+* sentToday -- 今日已发送的短信数量
+
 ## 使用说明：
 
 * 第一步：在代码中配置AK/SK。
@@ -32,6 +40,7 @@ SmsClient client = new SmsClient(configuration);
 
 ```java
 QueryQuotaResponse quota = client.queryQuota(new SmsRequest());
+
 logger.info(quota.toString());
 logger.info("单日发送配额: " + quota.getMaxSendPerDay());
 logger.info("单日单终端接收配额: " + quota.getMaxReceivePerPhoneNumberDay());
