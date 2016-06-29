@@ -9,7 +9,19 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Hello world!
+ * 获取单个短信模板的信息
+ *
+ * 所用接口:
+ *      SmsClient
+ *      GetTemplateDetailResponse getTemplateDetail(GetTemplateRequest);
+ *
+ * 查询结果:
+ *      templateId -- 短信模板ID
+ *      name -- 短信模板的名字
+ *      content -- 短信模板的内容
+ *      status -- VALID表示通过审核, INVALID表示未通过审核。
+ *      createTime -- 短信模板的创建时间
+ *      updateTime -- 短信模板的更新时间
  */
 public class App {
 

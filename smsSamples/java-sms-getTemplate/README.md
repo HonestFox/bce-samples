@@ -1,5 +1,16 @@
 # java-sms-getTemplate
 
+## 用途：
+
+获取单个短信模板的信息，主要包括：
+
+* 模板ID
+* 模板名
+* 模板内容
+* 模板状态（VALID/INVALID）
+* 模板创建时间
+* 模板更新时间
+
 ## 使用说明：
 
 * 第一步：在代码中配置AK/SK，以及需要查询的短信模板ID。
@@ -35,11 +46,7 @@ SmsClient client = new SmsClient(configuration);
 GetTemplateDetailRequest request = new GetTemplateDetailRequest();
 request.setTemplateId(templateId);
 GetTemplateDetailResponse template = client.getTemplateDetail(request);
-```
 
-### 第四步：输出短信模板的信息。
-
-```java
 logger.info(template.toString());
 logger.info("templateId: " + template.getTemplateId());
 logger.info("name: " + template.getName());
