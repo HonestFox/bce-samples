@@ -13,4 +13,5 @@
 | java-sms-queryQuota | Java | SMS | 查询配额 |
 | java-sms-receiverStatus | Java | SMS | 查询单终端用户的短信信息 |
 | python-sms-sendMessage | Python | SMS | 发送短信 |
+| python-sms-queryMessage | Python | SMS | 查询短信信息 |
 | php-sms-sendMessage | PHP | SMS | 发送短信 |
