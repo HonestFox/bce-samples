@@ -1,4 +1,4 @@
-# python-sms-sendMessage
+# python-sms-queryMessage
 
 ## 用途：
 
