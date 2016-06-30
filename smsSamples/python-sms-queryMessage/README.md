@@ -2,15 +2,20 @@
 
 ## 用途：
 
-发送短信。
+查询短信信息。主要包括：
+
+* message_id -- 短信流水号
+* receiver -- 短信接收者
+* content -- 短信内容
+* send_time -- 短信的发送时间
 
 **注意：仅适用于Python 2.7**
 
 ## 使用方法：
 
 * 第一步：在文件`sms_client_conf.py`中配置AK/SK。
-* 第二步：在文件`send_message.py`中配置模板ID、模板参数、接收者的手机号码。
-* 第三步：执行文件`send_message.py`。
+* 第二步：在文件`query_message.py`中填写要查询的短信流水号。
+* 第三步：执行文件`query_message.py`。
 
 ## 代码简介：
 
@@ -43,16 +48,14 @@ config = BceClientConfiguration(credentials=BceCredentials(AK, SK), endpoint=hos
 sms_client = SmsClient(sms_client_conf.config)
 ```
 
-### 第四步：配置模板ID、模板参数、接收者的手机号码，然后发送短信。
+### 第四步：填写短信流水号，查询短信信息。
 
 ```python
 try:
-    template_id = 'smsTpl:e7476122a1c24e37b3b0de19d04ae900'
-    receivers = ['手机号码1', '手机号码2']
-    content_var = {'code': '12345'}
+    message_id = ""  # 短信流水号
+    response = sms_client.query_message_detail(message_id)
 
-    response = sms_client.send_message(template_id, receivers, content_var)
-    print response.message_id
+    print response.message_id, response.receiver, response.content, response.send_time
 except BceHttpClientError as e:
     if isinstance(e.last_error, BceServerError):
         logger.error('send message failed. Response %s, code: %s, msg: %s' % (
