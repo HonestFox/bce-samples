@@ -12,4 +12,5 @@
 | java-sms-deleteTemplate | Java | SMS | 删除短信模板 |
 | java-sms-queryQuota | Java | SMS | 查询配额 |
 | java-sms-receiverStatus | Java | SMS | 查询单终端用户的短信信息 |
+| python-sms-sendMessage | Python | SMS | 发送短信 |
 | php-sms-sendMessage | PHP | SMS | 发送短信 |
