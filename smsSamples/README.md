@@ -14,4 +14,5 @@
 | java-sms-receiverStatus | Java | SMS | 查询单终端用户的短信信息 |
 | python-sms-sendMessage | Python | SMS | 发送短信 |
 | python-sms-queryMessage | Python | SMS | 查询短信信息 |
+| python-sms-createTemplate | Python | SMS | 创建短信模板 |
 | php-sms-sendMessage | PHP | SMS | 发送短信 |
