@@ -27,7 +27,7 @@ try:
     print response.message_id, response.receiver, response.content, response.send_time
 except BceHttpClientError as e:
     if isinstance(e.last_error, BceServerError):
-        logger.error('send message failed. Response %s, code: %s, msg: %s' % (
+        logger.error('query message failed. Response %s, code: %s, msg: %s' % (
             e.last_error.status_code, e.last_error.code, e.last_error.message))
     else:
-        logger.error('send message failed. Unknown exception: %s' % e)
+        logger.error('query message failed. Unknown exception: %s' % e)
