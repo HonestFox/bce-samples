@@ -25,7 +25,7 @@ try:
     print response.template_id
 except BceHttpClientError as e:
     if isinstance(e.last_error, BceServerError):
-        logger.error('send message failed. Response %s, code: %s, msg: %s' % (
+        logger.error('create template failed. Response %s, code: %s, msg: %s' % (
             e.last_error.status_code, e.last_error.code, e.last_error.message))
     else:
-        logger.error('send message failed. Unknown exception: %s' % e)
+        logger.error('create template failed. Unknown exception: %s' % e)
