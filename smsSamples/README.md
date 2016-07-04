@@ -18,4 +18,5 @@
 | python-sms-deleteTemplate | Python | SMS | 删除短信模板 |
 | python-sms-listTemplate | Python | SMS | 获取短信模板列表 |
 | python-sms-getTemplate | Python | SMS | 获取单个短信模板信息 |
+| python-sms-queryQuota | Python | SMS | 查询配额 |
 | php-sms-sendMessage | PHP | SMS | 发送短信 |
