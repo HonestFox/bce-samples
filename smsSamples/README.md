@@ -19,4 +19,5 @@
 | python-sms-listTemplate | Python | SMS | 获取短信模板列表 |
 | python-sms-getTemplate | Python | SMS | 获取单个短信模板信息 |
 | python-sms-queryQuota | Python | SMS | 查询配额 |
+| python-sms-receiverStatus | Python | SMS | 查询单终端用户的短信信息 |
 | php-sms-sendMessage | PHP | SMS | 发送短信 |
