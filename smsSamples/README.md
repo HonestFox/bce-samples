@@ -16,4 +16,5 @@
 | python-sms-queryMessage | Python | SMS | 查询短信信息 |
 | python-sms-createTemplate | Python | SMS | 创建短信模板 |
 | python-sms-deleteTemplate | Python | SMS | 删除短信模板 |
+| python-sms-listTemplate | Python | SMS | 获取短信模板列表 |
 | php-sms-sendMessage | PHP | SMS | 发送短信 |
