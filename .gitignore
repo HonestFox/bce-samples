@@ -4,3 +4,4 @@
 **/paho*
 *.log
 *.pyc
+**/.DS_Store
