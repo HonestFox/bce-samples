@@ -6,7 +6,7 @@ var iotClient;
 // 创建IoT客户端并连接到IoT实例（服务端）
 function connectToIot() {
     // 创建IoT Client
-    host = "YOUR_ENDPOINT_NAME.mqtt.iot.gz.baidubce.com";
+    host = "YOUR_ENDPOINT_NAME.mqtt.iot.gz.baidubce.com";  // 设置IoT实例的连接地址
     port = 8884;
 
     clientId = String(Math.random()).substring(2);
@@ -15,8 +15,8 @@ function connectToIot() {
     iotClient.onConnectionLost = onConnectionLost;
 
     // 连接到IoT实例
-    username = "YOUR_ENDPOINT_NAME/YOUR_THING_NAME";
-    password = "身份对应的密钥";
+    username = "YOUR_ENDPOINT_NAME/YOUR_THING_NAME";  // 设置用户名（设备全名）
+    password = "身份对应的密钥";  // 设置密码（设备身份所对应的密钥）
 
     connectOptions = {
         invocationContext: {
@@ -40,7 +40,7 @@ function connectToIot() {
 
 // 向某个主题发布消息
 function publish() {
-    topic = "YOUR_TOPIC";
+    topic = "YOUR_TOPIC";  // 设置主题（用来发布消息）
     payload = String(Math.random());
     message = new Paho.MQTT.Message(payload);
     message.destinationName = topic;
@@ -57,7 +57,7 @@ function disconnect() {
 function onConnectSuccess(connectedOptions) {
     host = connectedOptions.invocationContext.host;
     port = connectedOptions.invocationContext.port;
-    console.log("connected to " + host + ":" + port + " successfully.");
+    console.log("connected to " + host + ":" + port + " successfully");
 }
 
 // 当IoT客户端连接IoT实例（服务端）失败时，该函数被调用。
