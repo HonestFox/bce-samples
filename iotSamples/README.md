@@ -13,6 +13,7 @@
 | python-iot-pub-tcp | Python | IoT | 发布消息（publish） | TCP |
 | python-iot-sub-tcp | Python | IoT | 订阅消息（subscribe） | TCP |
 | js-iot-pub-wss | Javascript | IoT | 发布消息（publish）| WSS（WebSockets） |
+| js-iot-sub-wss | Javascript | IoT | 订阅消息（subscribe） | WSS（WebSockets） |
 
 ---
 
