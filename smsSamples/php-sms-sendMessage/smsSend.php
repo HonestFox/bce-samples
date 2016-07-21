@@ -1,4 +1,4 @@
-<<?php
+<?php
 // 配置签名信息
 date_default_timezone_set('UTC');
 $AK = "";  // 填写AK（AccessKeyId）
