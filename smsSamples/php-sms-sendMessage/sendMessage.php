@@ -24,10 +24,8 @@ $curlp = curl_init();
 $url = "http://" . $host . $uri;
 curl_setopt($curlp, CURLOPT_URL, $url);
 curl_setopt($curlp, CURLOPT_HTTPHEADER, $head);
-if (!empty($body)) {
-    curl_setopt($curlp, CURLOPT_POST, 1);
-    curl_setopt($curlp, CURLOPT_POSTFIELDS, $bodyString);
-}
+curl_setopt($curlp, CURLOPT_POST, 1);
+curl_setopt($curlp, CURLOPT_POSTFIELDS, $bodyString);
 
 // 发送短信
 curl_setopt($curlp, CURLOPT_RETURNTRANSFER, 1);
