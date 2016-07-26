@@ -22,3 +22,4 @@
 | python-sms-receiverStatus | Python | SMS | 查询单终端用户的短信信息 |
 | php-sms-sendMessage | PHP | SMS | 发送短信 |
 | php-sms-queryMessage | PHP | SMS | 查询短信信息 |
+| php-sms-createTemplate | PHP | SMS | 创建短信模板 |
