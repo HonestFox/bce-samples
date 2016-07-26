@@ -23,3 +23,4 @@
 | php-sms-sendMessage | PHP | SMS | 发送短信 |
 | php-sms-queryMessage | PHP | SMS | 查询短信信息 |
 | php-sms-createTemplate | PHP | SMS | 创建短信模板 |
+| php-sms-getTemplateList | PHP | SMS | 获取短信模板列表 |
