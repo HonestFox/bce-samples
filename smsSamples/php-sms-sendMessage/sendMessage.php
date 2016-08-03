@@ -3,13 +3,18 @@
 require "auth.php";
 
 // 设置AK/SK，生成认证信息。
-$AK = "";  // AccessKeyID
-$SK = "";  // SecretAccessKey
-$expirationPeriodInSeconds = 3600;
+$ak = "";  // AccessKeyID
+$sk = "";  // SecretAccessKey
+
 $method = "POST";
-$uri = "/v1/message";
 $host = "sms.bj.baidubce.com";
-$head = createHeadWithAuthorization($AK, $SK, $expirationPeriodInSeconds, $method, $uri, $host);
+$uri = "/v1/message";
+
+date_default_timezone_set('UTC');
+$timestamp = new \DateTime();
+
+$head = headWithAuthorization($ak, $sk, $method, $host, $uri, array(), $timestamp);
+var_dump($head);
 
 // 设置模板ID、模板参数值、接收者的手机号码。
 $body = array(
@@ -18,6 +23,7 @@ $body = array(
     'receiver' => array('手机号码1', '手机号码2')  // 支持多个手机号码
     );
 $bodyString = json_encode($body);
+var_dump($bodyString);
 
 // 设置HTTP请求的Header和Body
 $curlp = curl_init();
