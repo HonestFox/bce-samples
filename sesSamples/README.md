@@ -10,3 +10,4 @@
 | java-ses-deleteVerifiedEmail | Java | SES | 删除单个“发信邮箱” |
 | java-ses-verifyDomain | Java | SES | 认证“发信邮件域” |
 | java-ses-verifyDKIM | Java | SES | 认证“DKIM” |
+| java-ses-enableOrDisableDKIM | Java | SES | 启用/禁用DKIM |
