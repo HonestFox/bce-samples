@@ -13,3 +13,4 @@
 | java-ses-enableOrDisableDKIM | Java | SES | 启用/禁用DKIM |
 | java-ses-listVerifiedDomain | Java | SES | 获取所有“发信邮件域”的认证状态 |
 | java-ses-getVerifiedDomain | Java | SES | 获取单个“发信邮件域”的认证状态 |
+| java-ses-deleteVerifiedDomain | Java | SES | 删除单个“发信邮件域” |
