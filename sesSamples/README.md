@@ -16,3 +16,4 @@
 | java-ses-getVerifiedDomain | Java | SES | 获取单个“发信邮件域”的认证状态 |
 | java-ses-deleteVerifiedDomain | Java | SES | 删除单个“发信邮件域” |
 | java-ses-setFeedback | Java | SES | 设置“退信通知”的接收邮箱 |
+| java-ses-getFeedback | Java | SES | 获取“退信通知”的接收邮箱 |
