@@ -5,6 +5,7 @@
 | 项目名称 | 编程语言 | 云服务 | 动作 |
 | :-- | :-- | :-- | :-- |
 | java-ses-sendEmail | Java | SES | 发送邮件 |
+| java-ses-getQuota | Java | SES | 查询配额 |
 | java-ses-verifyEmail | Java | SES | 认证“发信邮箱” |
 | java-ses-listVerifiedEmail | Java | SES | 获取所有“发信邮箱”的认证状态 |
 | java-ses-getVerifiedEmail | Java | SES | 获取单个“发信邮箱”的认证状态 |
