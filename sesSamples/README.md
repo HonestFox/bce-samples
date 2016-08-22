@@ -18,3 +18,4 @@
 | java-ses-deleteVerifiedDomain | Java | SES | 删除单个“发信邮件域” |
 | java-ses-setFeedback | Java | SES | 设置“退信通知”的接收邮箱 |
 | java-ses-getFeedback | Java | SES | 获取“退信通知”的接收邮箱 |
+| java-ses-listRecipientBlacklist | Java | SES | 查询“接收邮箱黑名单” |
