@@ -26,3 +26,4 @@
 | php-ses-deleteVerifiedEmail | PHP | SES | 删除单个“发信邮箱” |
 | php-ses-verifyDomain | PHP | SES | 认证“发信邮件域” |
 | php-ses-verifyDKIM | PHP | SES | 认证“DKIM” |
+| php-ses-enableDKIM | PHP | SES | 启用“DKIM” |
