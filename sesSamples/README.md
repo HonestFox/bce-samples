@@ -29,3 +29,4 @@
 | php-ses-enableDKIM | PHP | SES | 启用“DKIM” |
 | php-ses-disableDKIM | PHP | SES | 禁用“DKIM” |
 | php-ses-listVerifiedDomain | PHP | SES | 获取所有“发信邮件域”的认证状态 |
+| php-ses-getVerifiedDomain | PHP | SES | 获取单个“发信邮件域”的认证状态 |
