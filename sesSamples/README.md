@@ -1,33 +1,25 @@
 # SES Samples
 
-项目命名规则：
-
-| 项目名称 | 编程语言 | 云服务 | 动作 |
-| :-- | :-- | :-- | :-- |
-| java-ses-sendEmail | Java | SES | 发送邮件 |
-| java-ses-getQuota | Java | SES | 查询配额 |
-| java-ses-verifyEmail | Java | SES | 认证“发信邮箱” |
-| java-ses-listVerifiedEmail | Java | SES | 获取所有“发信邮箱”的认证状态 |
-| java-ses-getVerifiedEmail | Java | SES | 获取单个“发信邮箱”的认证状态 |
-| java-ses-deleteVerifiedEmail | Java | SES | 删除单个“发信邮箱” |
-| java-ses-verifyDomain | Java | SES | 认证“发信邮件域” |
-| java-ses-verifyDKIM | Java | SES | 认证“DKIM” |
-| java-ses-enableOrDisableDKIM | Java | SES | 启用/禁用DKIM |
-| java-ses-listVerifiedDomain | Java | SES | 获取所有“发信邮件域”的认证状态 |
-| java-ses-getVerifiedDomain | Java | SES | 获取单个“发信邮件域”的认证状态 |
-| java-ses-deleteVerifiedDomain | Java | SES | 删除单个“发信邮件域” |
-| java-ses-setFeedback | Java | SES | 设置“退信通知”的接收邮箱 |
-| java-ses-getFeedback | Java | SES | 获取“退信通知”的接收邮箱 |
-| java-ses-listRecipientBlacklist | Java | SES | 查询“接收邮箱黑名单” |
-| java-ses-isInRecipientBlacklist | Java | SES | 查询某个邮箱是否在“接收邮箱黑名单”中 |
-| php-ses-verifyEmail | PHP | SES | 认证“发信邮箱” |
-| php-ses-listVerifiedEmail | PHP | SES | 获取所有“发信邮箱”的认证状态 |
-| php-ses-getVerifiedEmail | PHP | SES | 获取单个“发信邮箱”的认证状态 |
-| php-ses-deleteVerifiedEmail | PHP | SES | 删除单个“发信邮箱” |
-| php-ses-verifyDomain | PHP | SES | 认证“发信邮件域” |
-| php-ses-verifyDKIM | PHP | SES | 认证“DKIM” |
-| php-ses-enableDKIM | PHP | SES | 启用“DKIM” |
-| php-ses-disableDKIM | PHP | SES | 禁用“DKIM” |
-| php-ses-listVerifiedDomain | PHP | SES | 获取所有“发信邮件域”的认证状态 |
-| php-ses-getVerifiedDomain | PHP | SES | 获取单个“发信邮件域”的认证状态 |
-| php-ses-deleteVerifiedDomain | PHP | SES | 删除单个“发信邮件域” |
+| 操作 | Java | PHP |
+| :-- | :-- | :-- |
+| 发送邮件 | [java-ses-sendEmail](./java-ses-sendEmail) ||
+| 查询配额 | [java-ses-getQuota](./java-ses-getQuota) ||
+|||
+| 认证发信邮箱 | [java-ses-verifyEmail](./java-ses-verifyEmail) | [php-ses-verifyEmail](./php-ses-verifyEmail) |
+| 查询某个“发信邮箱”的认证状态 | [java-ses-getVerifiedEmail](./java-ses-getVerifiedEmail) | [php-ses-getVerifiedEmail](./php-ses-getVerifiedEmail) |
+| 查询所有“发信邮箱”的认证状态 | [java-ses-listVerifiedEmail](./java-ses-listVerifiedEmail) | [php-ses-listVerifiedEmail](./php-ses-listVerifiedEmail) |
+| 删除某个“发信邮箱” | [java-ses-deleteVerifiedEmail](./java-ses-deleteVerifiedEmail) | [php-ses-deleteVerifiedEmail](./php-ses-deleteVerifiedEmail) |
+|||
+| 认证发信邮件域 | [java-ses-verifyDomain](./java-ses-verifyDomain) | [php-ses-verifyDomain](./php-ses-verifyDomain) |
+| 认证DKIM | [java-ses-verifyDKIM](./java-ses-verifyDKIM) | [php-ses-verifyDKIM](./php-ses-verifyDKIM) |
+| 启用DKIM | [java-ses-enableOrDisableDKIM](./java-ses-enableOrDisableDKIM) | [php-ses-enableDKIM](./php-ses-enableDKIM) |
+| 禁用DKIM | [java-ses-enableOrDisableDKIM](./java-ses-enableOrDisableDKIM) | [php-ses-disableDKIM](./php-ses-disableDKIM) |
+| 查询某个“发信邮件域”的认证状态 | [java-ses-getVerifiedDomain](./java-ses-getVerifiedDomain) | [php-ses-getVerifiedDomain](./php-ses-getVerifiedDomain) |
+| 查询所有“发信邮件域”的认证状态 | [java-ses-listVerifiedDomain](./java-ses-listVerifiedDomain) | [php-ses-listVerifiedDomain](./php-ses-listVerifiedDomain) |
+| 删除某个“发信邮件域” | [java-ses-deleteVerifiedDomain](./java-ses-deleteVerifiedDomain) | [php-ses-deleteVerifiedDomain](./php-ses-deleteVerifiedDomain) |
+|||
+| 设置“退信通知”的接收邮箱 | [java-ses-setFeedback](./java-ses-setFeedback) ||
+| 查询“退信通知”的接收邮箱 | [java-ses-getFeedback](./java-ses-getFeedback) ||
+|||
+| 查询“接收邮箱黑名单” | [java-ses-listRecipientBlacklist](./java-ses-listRecipientBlacklist) ||
+| 查询某个邮箱是否在“接收邮箱黑名单”中 | [java-ses-isInRecipientBlacklist](./java-ses-isInRecipientBlacklist) ||
