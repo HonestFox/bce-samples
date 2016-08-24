@@ -27,3 +27,4 @@
 | php-ses-verifyDomain | PHP | SES | 认证“发信邮件域” |
 | php-ses-verifyDKIM | PHP | SES | 认证“DKIM” |
 | php-ses-enableDKIM | PHP | SES | 启用“DKIM” |
+| php-ses-disableDKIM | PHP | SES | 禁用“DKIM” |
