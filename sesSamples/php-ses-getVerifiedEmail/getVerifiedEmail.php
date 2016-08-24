@@ -38,8 +38,10 @@ curl_setopt($curlp, CURLOPT_HTTPHEADER, $head);
 
 curl_setopt($curlp, CURLOPT_RETURNTRANSFER, 1);
 $response = curl_exec($curlp);
+$status = curl_getinfo($curlp, CURLINFO_HTTP_CODE);
 curl_close($curlp);
 
-print("{$response}\n");
+print("status: {$status}\n");
+print("response: {$response}\n");
 
 ?>

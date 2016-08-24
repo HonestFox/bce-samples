@@ -46,6 +46,8 @@ $authorization = generateAuthorization($ak, $sk, $method, $host, $uri, $params, 
 print("authorization: {$authorization}\n");
 ```
 
+**生成认证字符串的方式，请参考：[auth.php](../../authorization/auth.php)**
+
 ### 第二步：构造HTTP请求的header。
 
 ```php
@@ -67,7 +69,9 @@ curl_setopt($curlp, CURLOPT_HTTPHEADER, $head);
 
 curl_setopt($curlp, CURLOPT_RETURNTRANSFER, 1);
 $response = curl_exec($curlp);
+$status = curl_getinfo($curlp, CURLINFO_HTTP_CODE);
 curl_close($curlp);
 
-print("{$response}\n");
+print("status: {$status}\n");
+print("response: {$response}\n");
 ```
