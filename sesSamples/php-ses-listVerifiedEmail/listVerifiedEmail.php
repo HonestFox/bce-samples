@@ -16,7 +16,7 @@ date_default_timezone_set('UTC');
 $timestamp = new \DateTime();
 $expirationInSeconds = 3600;
 
-$authorization = generateAuthorization($ak, $sk, $method, $host, $uri, array(), $timestamp, $expirationInSeconds);
+$authorization = generateAuthorization($ak, $sk, $method, $host, $uri, $params, $timestamp, $expirationInSeconds);
 print("authorization: {$authorization}\n");
 
 // 第二步：构造HTTP请求的header、body等信息
@@ -34,6 +34,7 @@ $head =  array(
 $curlp = curl_init();
 curl_setopt($curlp, CURLOPT_URL, $url);
 curl_setopt($curlp, CURLOPT_HTTPHEADER, $head);
+
 curl_setopt($curlp, CURLOPT_RETURNTRANSFER, 1);
 $response = curl_exec($curlp);
 curl_close($curlp);
