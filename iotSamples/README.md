@@ -1,21 +1,14 @@
 # IoT samples
 
-项目命名规则：
-
-| 项目名称 | 编程语言 | 云服务 | 动作 | 连接方式 |
-| :-- | :-- | :-- | :-- | :-- | :-- |
-| java-iot-pub-ssl | Java | IoT | 发布消息（publish） | SSL |
-| java-iot-sub-ssl | Java | IoT | 订阅消息（subscribe）| SSL |
-| java-iot-pub-tcp | Java | IoT | 发布消息（publish） | TCP |
-| java-iot-sub-tcp | Java | IoT | 订阅消息（subscribe） | TCP |
-| python-iot-pub-ssl | Python | IoT | 发布消息（publish） | SSL |
-| python-iot-sub-ssl | Python | IoT | 订阅消息（subscribe） | SSL |
-| python-iot-pub-tcp | Python | IoT | 发布消息（publish） | TCP |
-| python-iot-sub-tcp | Python | IoT | 订阅消息（subscribe） | TCP |
-| js-iot-pub-wss | Javascript | IoT | 发布消息（publish）| WSS（WebSockets） |
-| js-iot-sub-wss | Javascript | IoT | 订阅消息（subscribe） | WSS（WebSockets） |
-
----
+| 操作 | 连接方式 | Java | Python | Javascript |
+| :-- | :-- | :-- | :-- | :-- |
+| 发布消息 | SSL | [java-iot-put-ssl](./java-iot-pub-ssl) | [python-iot-pub-ssl](./python-iot-pub-ssl) ||
+| 发布消息 | TCP | [java-iot-pub-tcp](./java-iot-pub-tcp) | [python-iot-pub-tcp](./python-iot-pub-tcp) ||
+| 发布消息 | WSS(WebSockets) ||| [js-iot-pub-wss](./js-iot-pub-wss) |
+||||||
+| 订阅消息 | SSL | [java-iot-sub-ssl](./java-iot-sub-ssl) | [python-iot-sub-ssl](./python-iot-sub-ssl) ||
+| 订阅消息 | TCP | [java-iot-sub-tcp](./java-iot-sub-tcp) | [python-iot-sub-tcp](./python-iot-sub-tcp) ||
+| 订阅消息 | WSS(WebSockets) ||| [js-iot-sub-wss](./js-iot-sub-wss) |
 
 **附：如何查看AVRO文件的内容？**
 
