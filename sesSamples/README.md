@@ -23,3 +23,4 @@
 | php-ses-verifyEmail | PHP | SES | 认证“发信邮箱” |
 | php-ses-listVerifiedEmail | PHP | SES | 获取所有“发信邮箱”的认证状态 |
 | php-ses-getVerifiedEmail | PHP | SES | 获取单个“发信邮箱”的认证状态 |
+| php-ses-deleteVerifiedEmail | PHP | SES | 删除单个“发信邮箱” |
