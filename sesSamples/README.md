@@ -25,3 +25,4 @@
 | php-ses-getVerifiedEmail | PHP | SES | 获取单个“发信邮箱”的认证状态 |
 | php-ses-deleteVerifiedEmail | PHP | SES | 删除单个“发信邮箱” |
 | php-ses-verifyDomain | PHP | SES | 认证“发信邮件域” |
+| php-ses-verifyDKIM | PHP | SES | 认证“DKIM” |
