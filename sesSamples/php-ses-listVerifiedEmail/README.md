@@ -47,11 +47,11 @@ print("authorization: {$authorization}\n");
 
 **认证字符串的生成方法，可参考：[auth.php](../../authorization/auth.php)**
 
-### 第二步：生成HTTP请求的header。
+### 第二步：生成HTTP请求的URL和Header。
 
 ```php
+$url = "http://{$host}{$uri}";
 $timeStr = $timestamp->format("Y-m-d\TH:i:s\Z");
-$url = "http://" . $host . $uri;
 $head =  array(
     "Content-Type:application/json",
     "Authorization:{$authorization}",

@@ -55,11 +55,13 @@ $authorization = generateAuthorization($ak, $sk, $method, $host, $uri, $params, 
 print("authorization: {$authorization}\n");
 ```
 
-### 第二步：构造HTTP请求的header。
+**认证字符串的生成方式，请参考：[auth.php](../../authorization/auth.php)**
+
+### 第二步：构造HTTP请求的URL和Header。
 
 ```php
-$timeStr = $timestamp->format("Y-m-d\TH:i:s\Z");
 $url = "http://{$host}{$uri}?enableDkim";
+$timeStr = $timestamp->format("Y-m-d\TH:i:s\Z");
 $head =  array(
     "Content-Type:application/json",
     "Authorization:{$authorization}",

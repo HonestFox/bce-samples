@@ -21,6 +21,7 @@ print("authorization: {$authorization}\n");
 
 // 第二步：构造HTTP请求的header、body等信息
 
+$url = "http://{$host}{$uri}";
 $timeStr = $timestamp->format("Y-m-d\TH:i:s\Z");
 $head =  array(
     "Content-Type:application/json",
@@ -77,8 +78,6 @@ $body = array(
     );
 
 // 第三步：发送HTTP请求，并输出响应信息。
-
-$url = "http://{$host}{$uri}";
 
 $curlp = curl_init();
 curl_setopt($curlp, CURLOPT_POST, 1);

@@ -22,8 +22,8 @@ print("authorization: {$authorization}\n");
 
 // 第二步：构造HTTP请求的header、body等信息
 
-$timeStr = $timestamp->format("Y-m-d\TH:i:s\Z");
 $url = "http://{$host}{$uri}";
+$timeStr = $timestamp->format("Y-m-d\TH:i:s\Z");
 $head =  array(
     "Content-Type:application/json",
     "Authorization:{$authorization}",

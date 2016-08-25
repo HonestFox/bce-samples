@@ -33,9 +33,10 @@ $authorization = generateAuthorization($ak, $sk, $method, $host, $uri, $params, 
 print("authorization: {$authorization}\n");
 ```
 
-### 第二步：构造HTTP请求的header、body等信息。
+### 第二步：构造HTTP请求的URL、Header、Body。
 
 ```php
+$url = "http://{$host}{$uri}";
 $timeStr = $timestamp->format("Y-m-d\TH:i:s\Z");
 $head =  array(
     "Content-Type:application/json",
@@ -95,8 +96,6 @@ $body = array(
 ### 第三步：发送邮件。
 
 ```php
-$url = "http://{$host}{$uri}";
-
 $curlp = curl_init();
 curl_setopt($curlp, CURLOPT_POST, 1);
 curl_setopt($curlp, CURLOPT_URL, $url);
