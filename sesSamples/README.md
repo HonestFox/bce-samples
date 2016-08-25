@@ -3,9 +3,9 @@
 | 操作 | Java | PHP |
 | :-- | :-- | :-- |
 | 发送邮件 | [java-ses-sendEmail](./java-ses-sendEmail) | [php-ses-sendEmail](./php-ses-sendEmail) |
-||||
-| 查询配额 | [java-ses-getQuota](./java-ses-getQuota) ||
-|||
+|
+| 查询配额 | [java-ses-getQuota](./java-ses-getQuota) | [php-ses-getQuota](./php-ses-getQuota) |
+|
 | 认证发信邮箱 | [java-ses-verifyEmail](./java-ses-verifyEmail) | [php-ses-verifyEmail](./php-ses-verifyEmail) |
 | 查询某个“发信邮箱”的认证状态 | [java-ses-getVerifiedEmail](./java-ses-getVerifiedEmail) | [php-ses-getVerifiedEmail](./php-ses-getVerifiedEmail) |
 | 查询所有“发信邮箱”的认证状态 | [java-ses-listVerifiedEmail](./java-ses-listVerifiedEmail) | [php-ses-listVerifiedEmail](./php-ses-listVerifiedEmail) |
