@@ -33,7 +33,7 @@ configuration.setCredentials(new DefaultBceCredentials(AK, SK));
 SesClient client = new SesClient(configuration);
 ```
 
-### 第三步：发送邮件。
+### 第三步：查询某个邮箱是否在“接收邮箱黑名单”中。
 
 ```java
 String email = "";  // 待查询的邮箱地址, 比如: xyz@abc.com

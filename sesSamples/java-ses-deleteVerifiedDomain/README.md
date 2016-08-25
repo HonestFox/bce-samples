@@ -36,7 +36,7 @@ configuration.setCredentials(new DefaultBceCredentials(AK, SK));
 SesClient client = new SesClient(configuration);
 ```
 
-### 第三步：删除单个“发信邮箱”。
+### 第三步：删除单个“发信邮件域”。
 
 ```java
 String domain = "";  // 发信邮件域的域名, 比如: abc.com

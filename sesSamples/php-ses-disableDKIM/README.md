@@ -69,7 +69,7 @@ $head =  array(
     );
 ```
 
-### 第三步：发送HTTP请求，启用DKIM。
+### 第三步：发送HTTP请求，禁用DKIM。
 
 ```php
 $curlp = curl_init();

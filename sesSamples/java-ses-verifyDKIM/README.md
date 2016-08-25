@@ -39,10 +39,10 @@ configuration.setCredentials(new DefaultBceCredentials(AK, SK));
 SesClient client = new SesClient(configuration);
 ```
 
-### 第三步：认证“发信邮件域”。
+### 第三步：对指定的“发信邮件域”进行DKIM认证。
 
 ```java
-String domain = "发信邮件域的域名";
+String domain = "发信邮件域的域名";  // 比如：abc.com
 client.enableDKIM(domain);
 VerifyDKIMResponse response = client.verifyDKIM(domain);
 System.out.println(response);

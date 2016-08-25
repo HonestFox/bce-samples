@@ -54,7 +54,7 @@ $head =  array(
     );
 ```
 
-### 第三步：发送HTTP请求，认证“发信邮件域”。
+### 第三步：发送HTTP请求，对指定的“发信邮件域”进行DKIM认证。
 
 ```php
 $curlp = curl_init();
