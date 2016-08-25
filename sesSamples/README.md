@@ -1,6 +1,6 @@
 # SES Samples
 
-| 操作 | Java | PHP |
+| 操作 | Java (SDK) | PHP (API) |
 | :-- | :-- | :-- |
 | 发送邮件 | [java-ses-sendEmail](./java-ses-sendEmail) | [php-ses-sendEmail](./php-ses-sendEmail) |
 |
