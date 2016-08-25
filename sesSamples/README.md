@@ -2,7 +2,7 @@
 
 | 操作 | Java | PHP |
 | :-- | :-- | :-- |
-| 发送邮件 | [java-ses-sendEmail](./java-ses-sendEmail) ||
+| 发送邮件 | [java-ses-sendEmail](./java-ses-sendEmail) | [php-ses-sendEmail](./php-ses-sendEmail) |
 ||||
 | 查询配额 | [java-ses-getQuota](./java-ses-getQuota) ||
 |||
