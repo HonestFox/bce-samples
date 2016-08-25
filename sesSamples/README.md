@@ -23,4 +23,4 @@
 | 查询“退信通知”的接收邮箱 | [java-ses-getFeedback](./java-ses-getFeedback) ||
 |||
 | 查询“接收邮箱黑名单” | [java-ses-listRecipientBlacklist](./java-ses-listRecipientBlacklist) | [php-ses-listRecipientBlacklist](./php-ses-listRecipientBlacklist)|
-| 查询某个邮箱是否在“接收邮箱黑名单”中 | [java-ses-isInRecipientBlacklist](./java-ses-isInRecipientBlacklist) ||
+| 查询某个邮箱是否在“接收邮箱黑名单”中 | [java-ses-isInRecipientBlacklist](./java-ses-isInRecipientBlacklist) | [php-ses-isInRecipientBlacklist](./php-ses-isInRecipientBlacklist) |
