@@ -2,7 +2,13 @@
 
 ## 用途：
 
-获取“退信通知”的接收邮箱。
+获取通知方式。
+
+| 代码 | 通知类型 |
+| :-- | :-- |
+| 1 | 退信或投诉 |
+| 2 | 退信 |
+| 3 | 投诉 |
 
 ## 使用方法：
 
@@ -32,7 +38,7 @@ configuration.setCredentials(new DefaultBceCredentials(AK, SK));
 SesClient client = new SesClient(configuration);
 ```
 
-### 第三步：获取“退信通知”的接收邮箱。
+### 第三步：获取通知方式。
 
 ```java
 GetFeedbackResponse response = client.getFeedback();
