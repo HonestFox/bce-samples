@@ -33,7 +33,7 @@ configuration.setCredentials(new DefaultBceCredentials(AK, SK));
 SesClient client = new SesClient(configuration);
 ```
 
-### 第三步：发送邮件。
+### 第三步：获取“接收邮箱黑名单”。
 
 ```java
 ListRecipientBlacklistResponse response = client.listRecipientBlacklist();
