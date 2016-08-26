@@ -50,7 +50,7 @@ $head =  array(
     );
 ```
 
-### 第三步：查询短信详情。
+### 第三步：发送HTTP请求，查询配额。
 
 ```php
 $curlp = curl_init();

@@ -5,12 +5,12 @@
 查询短信模板列表（仅限用户自定义模板）。
 列表中的每一项代表一个短信模板，包括：
 
-* template_id - 模板ID
-* name - 模板名称
-* content - 模板内容
-* status - 模板状态
-* create_time - 模板的创建时间
-* update_time - 模板的更新时间
+* `template_id` - 模板ID
+* `name` - 模板名称
+* `content` - 模板内容
+* `status` - 模板状态
+* `create_time` - 模板的创建时间
+* `update_time` - 模板的更新时间
 
 ## 使用方法：
 
@@ -54,7 +54,7 @@ $head =  array(
     );
 ```
 
-### 第三步：获取短信模板列表。
+### 第三步：发送HTTP请求，获取短信模板列表。
 
 ```php
 $curlp = curl_init();
