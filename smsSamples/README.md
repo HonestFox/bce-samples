@@ -7,7 +7,7 @@
 |
 | 创建短信模板 | [java-sms-createTemplate](./java-sms-createTemplate) | [python-sms-createTemplate](./python-sms-createTemplate) || [php-sms-createTemplate](./php-sms-createTemplate) |
 | 查询单个短信模板 | [java-sms-getTemplate](./java-sms-getTemplate) | [python-sms-getTemplate](./python-sms-getTemplate) || [php-sms-getTemplate](./php-sms-getTemplate) |
-| 获取短信模板列表 | [java-sms-listTemplate](./java-sms-listTemplate) | [python-sms-listTemplate](./python-sms-listTemplate) |||
+| 获取短信模板列表 | [java-sms-listTemplate](./java-sms-listTemplate) | [python-sms-listTemplate](./python-sms-listTemplate) || [php-sms-listTemplate](./php-sms-listTemplate) |
 | 删除短信模板 | [java-sms-deleteTemplate](./java-sms-deleteTemplate) | [python-sms-deleteTemplate](./python-sms-deleteTemplate) |||
 |
 | 查询配额 | [java-sms-queryQuta](./java-sms-queryQuota) | [python-sms-queryQuota](./python-sms-queryQuota) |||
