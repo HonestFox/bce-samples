@@ -10,5 +10,5 @@
 | 获取短信模板列表 | [java-sms-listTemplate](./java-sms-listTemplate) | [python-sms-listTemplate](./python-sms-listTemplate) || [php-sms-listTemplate](./php-sms-listTemplate) |
 | 删除短信模板 | [java-sms-deleteTemplate](./java-sms-deleteTemplate) | [python-sms-deleteTemplate](./python-sms-deleteTemplate) || [php-sms-deleteTemplate](./php-sms-deleteTemplate) |
 |
-| 查询配额 | [java-sms-queryQuta](./java-sms-queryQuota) | [python-sms-queryQuota](./python-sms-queryQuota) |||
+| 查询配额 | [java-sms-queryQuta](./java-sms-queryQuota) | [python-sms-queryQuota](./python-sms-queryQuota) || [php-sms-queryQuota](./php-sms-queryQuota) |
 | 查询单终端用户接收的短信信息 | [java-sms-receiverStatus](./java-sms-receiverStatus) | [python-sms-receiverStatus](./python-sms-receiverStatus) |||
