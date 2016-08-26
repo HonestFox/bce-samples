@@ -2,7 +2,7 @@
 
 | 操作 | Java (SDK) | Python (SDK) | C (SDK) | PHP (API) |
 | :-- | :-- | :-- | :-- | :-- |
-| 发送短信 | [java-sms-sendMessage](./java-sms-sendMessage) | [python-sms-sendMessage](./python-sms-sendMessage) |||
+| 发送短信 | [java-sms-sendMessage](./java-sms-sendMessage) | [python-sms-sendMessage](./python-sms-sendMessage) || [php-sms-sendMessage](./php-sms-sendMessage) |
 | 查询短信详情 | [java-sms-queryMessage](./java-sms-queryMessage) | [python-sms-queryMessage](./python-sms-queryMessage) |||
 |
 | 创建短信模板 | [java-sms-createTemplate](./java-sms-createTemplate) | [python-sms-createTemplate](./python-sms-createTemplate) |||

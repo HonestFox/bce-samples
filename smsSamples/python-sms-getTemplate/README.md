@@ -50,7 +50,7 @@ config = BceClientConfiguration(credentials=BceCredentials(AK, SK), endpoint=hos
 sms_client = SmsClient(sms_client_conf.config)
 ```
 
-### 第四步：获取模板列表，并解析每个模板的信息。
+### 第四步：查询某个短信模板的信息。
 
 ```python
 try:
