@@ -1,22 +1,14 @@
 # SMS Samples
 
-项目命名规则：
-
-| 项目名称 | 编程语言 | 云服务 | 操作 |
-| :-- | :-- | :-- | :-- |
-| java-sms-sendMessage | Java | SMS | 发送短信 |
-| java-sms-queryMessageDetail | Java | SMS | 查询短信信息 |
-| java-sms-createTemplate | Java | SMS | 创建短信模板 |
-| java-sms-deleteTemplate | Java | SMS | 删除短信模板 |
-| java-sms-getTemplateList | Java | SMS | 获取短信模板列表 |
-| java-sms-getTemplate | Java | SMS | 获取单个短信模板信息 |
-| java-sms-queryQuota | Java | SMS | 查询配额 |
-| java-sms-receiverStatus | Java | SMS | 查询单终端用户的短信信息 |
-| python-sms-sendMessage | Python | SMS | 发送短信 |
-| python-sms-queryMessage | Python | SMS | 查询短信信息 |
-| python-sms-createTemplate | Python | SMS | 创建短信模板 |
-| python-sms-deleteTemplate | Python | SMS | 删除短信模板 |
-| python-sms-listTemplate | Python | SMS | 获取短信模板列表 |
-| python-sms-getTemplate | Python | SMS | 获取单个短信模板信息 |
-| python-sms-queryQuota | Python | SMS | 查询配额 |
-| python-sms-receiverStatus | Python | SMS | 查询单终端用户的短信信息 |
+| 操作 | Java (SDK) | Python (SDK) | C (SDK) | PHP (API) |
+| :-- | :-- | :-- | :-- | :-- |
+| 发送短信 | [java-sms-sendMessage](./java-sms-sendMessage) | [python-sms-sendMessage](./python-sms-sendMessage) |||
+| 查询短信详情 | [java-sms-queryMessage](./java-sms-queryMessage) | [python-sms-queryMessage](./python-sms-queryMessage) |||
+|
+| 创建短信模板 | [java-sms-createTemplate](./java-sms-createTemplate) | [python-sms-createTemplate](./python-sms-createTemplate) |||
+| 查询单个短信模板 | [java-sms-getTemplate](./java-sms-getTemplate) | [python-sms-getTemplate](./python-sms-getTemplate) |||
+| 获取短信模板列表 | [java-sms-listTemplate](./java-sms-listTemplate) | [python-sms-listTemplate](./python-sms-listTemplate) |||
+| 删除短信模板 | [java-sms-deleteTemplate](./java-sms-deleteTemplate) | [python-sms-deleteTemplate](./python-sms-deleteTemplate) |||
+|
+| 查询配额 | [java-sms-queryQuta](./java-sms-queryQuota) | [python-sms-queryQuota](./python-sms-queryQuota) |||
+| 查询单终端用户接收的短信信息 | [java-sms-receiverStatus](./java-sms-receiverStatus) | [python-sms-receiverStatus](./python-sms-receiverStatus) |||
