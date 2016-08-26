@@ -1,4 +1,4 @@
-# java-sms-getTemplateList
+# java-sms-listTemplate
 
 ## 用途：
 
