@@ -12,3 +12,5 @@
 |
 | 查询配额 | [java-sms-queryQuta](./java-sms-queryQuota) | [python-sms-queryQuota](./python-sms-queryQuota) || [php-sms-queryQuota](./php-sms-queryQuota) |
 | 查询单终端用户接收的短信信息 | [java-sms-receiverStatus](./java-sms-receiverStatus) | [python-sms-receiverStatus](./python-sms-receiverStatus) || [php-sms-receiverStatus](./php-sms-receiverStatus) |
+
+**注意：因为SDK和API的语言种类较多，上面的表格中，右边的部分列有可能没有显示在页面中，请左右拖动表格来查看。**
