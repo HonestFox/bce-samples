@@ -1,4 +1,4 @@
-# IoT samples
+# IoT Hub samples
 
 | 操作 | 连接方式 | Java | Python | Javascript |
 | :-- | :-- | :-- | :-- | :-- |
