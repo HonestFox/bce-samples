@@ -1,4 +1,4 @@
-# php-tsdb-writeDatapoint
+# php-tsdb-listMetric
 
 ## 用途：
 
