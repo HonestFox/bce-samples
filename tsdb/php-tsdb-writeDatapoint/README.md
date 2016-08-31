@@ -43,7 +43,7 @@ $head = array(
     "Content-Type:application/json",
     "Authorization:{$authorization}",
     "x-bce-date:{$timeStr}"
-    );
+);
 $body = array(
     "datapoints" => array(
         array(
@@ -51,24 +51,24 @@ $body = array(
             "tags" => array(
                 "host" => "server1",
                 "rack" => "rack1"
-                ),
+            ),
             "timestamp" => (new \DateTime())->getTimestamp(),
             "value" => 51
-            ),
+        ),
 
         array(
             "metric" => "cpu_idle",
             "tags" => array(
                 "host" => "server2",
                 "rack" => "rack2"
-                ),
+            ),
             "values" => array(
                 array((new \DateTime())->getTimestamp(), 67),
                 array((new \DateTime())->getTimestamp(), 61)
-                )
             )
         )
-    );
+    )
+);
 ```
 
 **其中，数据点有两种表示方式：**
@@ -82,10 +82,10 @@ $body = array(
     "tags" => array(
         "host" => "server1",
         "rack" => "rack1"
-        ),
+    ),
     "timestamp" => (new \DateTime())->getTimestamp(),
     "value" => 51
-    )
+)
 > ```
 > 
 > **其中，`timestamp`和`value`必须同时存在。**
@@ -98,12 +98,12 @@ $body = array(
     "tags" => array(
         "host" => "server2",
         "rack" => "rack2"
-        ),
+    ),
     "values" => array(
         array((new \DateTime())->getTimestamp(), 67),
         array((new \DateTime())->getTimestamp(), 61)
-        )
     )
+)
 > ```
 > 
 > **如果有多个数据点的`metric`和`tags`都是相同的，可以使用`values`参数来设置多个数据点的时间戳和数据值，这种方式可以减少HTTP请求的payload。**

@@ -27,7 +27,7 @@ $head = array(
     "Content-Type:application/json",
     "Authorization:{$authorization}",
     "x-bce-date:{$timeStr}"
-    );
+);
 $body = array(
     "datapoints" => array(
         array(
@@ -35,24 +35,24 @@ $body = array(
             "tags" => array(
                 "host" => "server1",
                 "rack" => "rack1"
-                ),
+            ),
             "timestamp" => (new \DateTime())->getTimestamp(),
             "value" => 51
-            ),
+        ),
 
         array(
             "metric" => "cpu_idle",
             "tags" => array(
                 "host" => "server2",
                 "rack" => "rack2"
-                ),
+            ),
             "values" => array(
                 array((new \DateTime())->getTimestamp(), 67),
                 array((new \DateTime())->getTimestamp(), 61)
-                )
             )
         )
-    );
+    )
+);
 
 // 发送HTTP请求，写入数据点。
 
