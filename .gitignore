@@ -5,3 +5,4 @@
 *.log
 *.pyc
 **/.DS_Store
+**/out
