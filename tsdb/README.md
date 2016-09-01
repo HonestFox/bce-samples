@@ -5,4 +5,4 @@
 | 写入数据点 | [java-tsdb-writeDatapoint](./java-tsdb-writeDatapoint) | [php-tsdb-writeDatapoint](./php-tsdb-writeDatapoint) ||
 | 查询数据点 ||||
 | 获取metric列表 | [java-tsdb-getMetrics](./java-tsdb-getMetrics) | [php-tsdb-getMetrics](./php-tsdb-getMetrics) ||
-| 获取标签 || [php-tsdb-getTags](./php-tsdb-getTags) ||
+| 获取标签 | [java-tsdb-getTags](./java-tsdb-getTags) | [php-tsdb-getTags](./php-tsdb-getTags) ||
