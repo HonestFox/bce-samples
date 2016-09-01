@@ -1,4 +1,4 @@
-# php-tsdb-listTag
+# php-tsdb-getTags
 
 ## 用途：
 
@@ -6,8 +6,8 @@
 
 ## 使用方法：
 
-* 第一步：在`listTag.php`中配置AK/SK和endpoint。
-* 第二步：执行命令`php listTag.php`。
+* 第一步：在`getTags.php`中配置AK/SK和endpoint。
+* 第二步：执行命令`php getTags.php`。
 
 ## 代码简介：
 

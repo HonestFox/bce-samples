@@ -1,4 +1,4 @@
-# php-tsdb-listMetric
+# php-tsdb-getMetrics
 
 ## 用途：
 
@@ -6,8 +6,8 @@
 
 ## 使用方法：
 
-* 第一步：在`listMetric.php`中配置AK/SK和endpoint。
-* 第二步：执行命令`php listMetric.php`。
+* 第一步：在`getMetrics.php`中配置AK/SK和endpoint。
+* 第二步：执行命令`php getMetrics.php`。
 
 ## 代码简介：
 
