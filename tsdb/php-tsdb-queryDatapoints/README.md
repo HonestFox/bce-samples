@@ -1,19 +1,21 @@
-# php-tsdb-queryDatapoints-via-put
+# php-tsdb-queryDatapoints
 
 ## 用途：
 
 从TSDB中查询数据点。
 
-**查询数据点有两种请求方式：GET 或 PUT，这里使用的是PUT请求。**
+**查询数据点有两种请求方式：GET 或 PUT。**
 
-## 使用方法：
+## 使用PUT请求：
 
-* 第一步：在`queryDatapoints.php`中配置AK/SK、endpoint以及查询条件。
-* 第二步：执行命令`php queryDatapoints.php`。
+### 使用方法：
 
-## 代码简介：
+* 第一步：在`queryDatapoints-via-put.php`中配置AK/SK、endpoint以及查询条件。
+* 第二步：执行命令`php queryDatapoints-via-put.php`。
 
-### 第一步：配置AK/SK和endpoint，生成认证字符串。
+### 代码简介：
+
+#### 第一步：配置AK/SK和endpoint，生成认证字符串。
 
 ```php
 require "../../authorization/auth.php";
@@ -36,7 +38,7 @@ print("authorization: {$authorization}\n");
 
 **认证字符串的生成方式，请参考：[auth.php](../../authorization/auth.php)**
 
-### 第二步：构造HTTP请求的URL、Header、Body。
+#### 第二步：构造HTTP请求的URL、Header、Body。
 
 ```php
 $url = "http://{$endpoint}{$uri}?query";
@@ -61,7 +63,7 @@ $body = array(
 );
 ```
 
-### 第三步：发送HTTP请求，查询数据点。
+#### 第三步：发送HTTP请求，查询数据点。
 
 ```php
 $curlp = curl_init();
