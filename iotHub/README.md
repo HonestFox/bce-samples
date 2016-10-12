@@ -18,6 +18,7 @@
 | :-- | :-- |
 | 获取endpoint列表 | [php-iot-getEndpoints](./php-iot-getEndpoints) |
 | 获取指定的endpoint信息 | [php-iot-getEndpoint](./php-iot-getEndpoint) |
+| 创建endpoint | [php-iot-createEndpoint](./php-iot-createEndpoint) |
 
 ## 附：如何查看AVRO文件的内容？
 
