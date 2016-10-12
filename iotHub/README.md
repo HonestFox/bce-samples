@@ -17,6 +17,7 @@
 | 操作 | PHP |
 | :-- | :-- |
 | 获取endpoint列表 | [php-iot-getEndpoints](./php-iot-getEndpoints) |
+| 获取指定的endpoint信息 | [php-iot-getEndpoint](./php-iot-getEndpoint) |
 
 ## 附：如何查看AVRO文件的内容？
 
