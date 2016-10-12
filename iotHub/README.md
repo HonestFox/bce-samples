@@ -1,5 +1,7 @@
 # IoT Hub samples
 
+## 使用MQTT客户端发布/订阅消息
+
 | 操作 | 连接方式 | Java | Python | Javascript |
 | :-- | :-- | :-- | :-- | :-- |
 | 发布消息 | SSL | [java-iot-put-ssl](./java-iot-pub-ssl) | [python-iot-pub-ssl](./python-iot-pub-ssl) ||
@@ -10,7 +12,13 @@
 | 订阅消息 | TCP | [java-iot-sub-tcp](./java-iot-sub-tcp) | [python-iot-sub-tcp](./python-iot-sub-tcp) ||
 | 订阅消息 | WSS(WebSockets) ||| [js-iot-sub-wss](./js-iot-sub-wss) |
 
-**附：如何查看AVRO文件的内容？**
+## 使用iothub的API来操作实例
+
+| 操作 | PHP |
+| :-- | :-- |
+| 获取endpoint列表 | [php-iot-getEndpoints](./php-iot-getEndpoints) |
+
+## 附：如何查看AVRO文件的内容？
 
 百度IoT提供了“归档列表”功能，可以把IoT的消息内容保存到BOS中。但默认的保存格式是AVRO，无法直接用文本编辑器查看。
 
