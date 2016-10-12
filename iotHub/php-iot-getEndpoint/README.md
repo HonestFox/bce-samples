@@ -33,7 +33,7 @@ $authorization = generateAuthorization($ak, $sk, $method, $host, $uri, $params, 
 print("authorization: {$authorization}\n");
 ```
 
-**生成认证字符串的方法，请参考：[auth.php](../../authorization)**
+**生成认证字符串的方法，请参考：[auth.php](../../authorization/auth.php)**
 
 ### 第二步：构造HTTP请求的URL、Header。
 
