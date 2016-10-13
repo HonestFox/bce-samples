@@ -6,7 +6,7 @@ require "../../authorization/auth.php";
 
 $ak = "";  // AccessKeyId
 $sk = "";  // SecretAccessKey
-$endpointName = "";  // 要查询的实例名称
+$endpointName = "";  // 实例名称
 
 $method = "GET";
 $host = "iot.gz.baidubce.com";
