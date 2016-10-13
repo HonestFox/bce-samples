@@ -6,8 +6,8 @@ require "../../authorization/auth.php";
 
 $ak = "";  // AccessKeyId
 $sk = "";  // SecretAccessKey
-$endpointName = "";  // 在哪个实例中创建thing
-$thingName = "";  // 要创建的设备名称
+$endpointName = "";  // 实例名称
+$thingName = "";  // 设备名称
 
 $method = "POST";
 $host = "iot.gz.baidubce.com";
