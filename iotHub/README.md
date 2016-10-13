@@ -21,6 +21,7 @@
 | 创建endpoint | [php-iot-createEndpoint](./php-iot-createEndpoint) |
 | 删除endpoint | [php-iot-deleteEndpoint](./php-iot-deleteEndpoint) |
 | 获取thing列表 | [php-iot-getThings](./php-iot-getThings) |
+| 获取指定的thing信息 | [php-iot-getThing](./php-iot-getThing) |
 
 ## 附：如何查看AVRO文件的内容？
 
