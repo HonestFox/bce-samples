@@ -30,6 +30,7 @@
 | 重新生成principal的密钥 | [php-iot-generatePassword](./php-iot-generatePassword) |
 | 删除principal | [php-iot-deletePrincipal](./php-iot-deletePrincipal) |
 | 获取policy列表 | [php-iot-getPolicies](./php-iot-getPolicies) |
+| 获取指定的policy信息 | [php-iot-getPolicy](./php-iot-getPolicy) |
 
 ## 附：如何查看AVRO文件的内容？
 
