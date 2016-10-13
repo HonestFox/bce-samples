@@ -18,7 +18,7 @@ require "../../authorization/auth.php";
 
 $ak = "";  // AccessKeyId
 $sk = "";  // SecretAccessKey
-$endpointName = "";  // 要删除的实例名称
+$endpointName = "";  // 实例名称
 
 $method = "DELETE";
 $host = "iot.gz.baidubce.com";
