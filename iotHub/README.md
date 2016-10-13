@@ -23,6 +23,7 @@
 | 获取thing列表 | [php-iot-getThings](./php-iot-getThings) |
 | 获取指定的thing信息 | [php-iot-getThing](./php-iot-getThing) |
 | 创建thing | [php-iot-createThing](./php-iot-createThing) |
+| 删除thing | [php-iot-deleteThing](./php-iot-deleteThing) |
 
 ## 附：如何查看AVRO文件的内容？
 
