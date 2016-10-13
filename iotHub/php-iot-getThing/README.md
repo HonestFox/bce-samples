@@ -18,8 +18,8 @@ require "../../authorization/auth.php";
 
 $ak = "";  // AccessKeyId
 $sk = "";  // SecretAccessKey
-$endpointName = "";  // 要查询的实例名称
-$thingName = "";  // 要查询的设备名称
+$endpointName = "";  // 实例名称
+$thingName = "";  // 设备名称
 
 $method = "GET";
 $host = "iot.gz.baidubce.com";
