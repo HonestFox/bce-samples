@@ -18,7 +18,7 @@ require "../../authorization/auth.php";
 
 $ak = "";  // AccessKeyId
 $sk = "";  // SecretAccessKey
-$endpointName = "";  // 要创建的实例名称
+$endpointName = "";  // 实例名称
 
 $method = "POST";
 $host = "iot.gz.baidubce.com";
