@@ -28,13 +28,14 @@ $head =  array(
     "Content-Type:application/json",
     "Authorization:{$authorization}",
     "x-bce-date:{$timeStr}"
-    );
+);
 
 // 第三步：发送HTTP请求，并输出响应信息。
 
 $curlp = curl_init();
 curl_setopt($curlp, CURLOPT_URL, $url);
 curl_setopt($curlp, CURLOPT_HTTPHEADER, $head);
+
 curl_setopt($curlp, CURLINFO_HEADER_OUT, 1);
 curl_setopt($curlp, CURLOPT_RETURNTRANSFER, 1);
 
