@@ -28,6 +28,7 @@
 | 获取指定的principal信息 | [php-iot-getPrincipal](./php-iot-getPrincipal) |
 | 创建principal | [php-iot-createPrincipal](./php-iot-createPrincipal) |
 | 重新生成principal的密钥 | [php-iot-generatePassword](./php-iot-generatePassword) |
+| 删除principal | [php-iot-deletePrincipal](./php-iot-deletePrincipal) |
 
 ## 附：如何查看AVRO文件的内容？
 
