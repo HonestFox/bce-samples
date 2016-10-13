@@ -18,8 +18,8 @@ require "../../authorization/auth.php";
 
 $ak = "";  // AccessKeyId
 $sk = "";  // SecretAccessKey
-$endpointName = "";  // 要删除的thing所属的实例名称
-$principalName = "";  // 要删除的设备名称
+$endpointName = "";  // 实例名称
+$principalName = "";  // 身份名称
 
 $method = "DELETE";
 $host = "iot.gz.baidubce.com";
