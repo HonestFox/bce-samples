@@ -34,6 +34,7 @@ $body = array(
     "templateCode" => "smsTpl:e7476122a1c24e37b3b0de19d04ae900",
     "contentVar" => array("code" => "12345")
     );
+$bodyStr = json_encode($body);
 
 // 第三步：发送HTTP请求，并输出响应信息。
 
@@ -41,7 +42,7 @@ $curlp = curl_init();
 curl_setopt($curlp, CURLOPT_POST, 1);
 curl_setopt($curlp, CURLOPT_URL, $url);
 curl_setopt($curlp, CURLOPT_HTTPHEADER, $head);
-curl_setopt($curlp, CURLOPT_POSTFIELDS, json_encode($body));
+curl_setopt($curlp, CURLOPT_POSTFIELDS, $bodyStr);
 
 curl_setopt($curlp, CURLINFO_HEADER_OUT, 1);
 curl_setopt($curlp, CURLOPT_RETURNTRANSFER, 1);
@@ -52,6 +53,7 @@ $status = curl_getinfo($curlp, CURLINFO_HTTP_CODE);
 curl_close($curlp);
 
 print("request: {$request}\n");
+print("request body: {$bodyStr}\n");
 print("status: {$status}\n");
 print("response: {$response}\n");
 
