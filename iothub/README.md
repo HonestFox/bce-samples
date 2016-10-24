@@ -37,6 +37,7 @@
 | 获取指定的topic信息 | [php-iot-getPermission](./php-iot-getPermission) |
 | 在指定的policy内创建topic | [php-iot-createPermission](./php-iot-createPermission) |
 | 修改指定的topic信息 | [php-iot-updatePermission](./php-iot-updatePermission) |
+| 删除指定的topic | [php-iot-deletePermission](./php-iot-deletePermission) |
 
 ## 附：如何查看AVRO文件的内容？
 
