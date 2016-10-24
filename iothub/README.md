@@ -34,6 +34,7 @@
 | 创建policy | [php-iot-createPolicy](./php-iot-createPolicy) |
 | 删除policy | [php-iot-deletePolicy](./php-iot-deletePolicy) |
 | 获取policy内的所有topic信息 | [php-iot-getPermissions](./php-iot-getPermissions) |
+| 获取指定的topic信息 | [php-iot-getPermission](./php-iot-getPermission) |
 
 ## 附：如何查看AVRO文件的内容？
 
