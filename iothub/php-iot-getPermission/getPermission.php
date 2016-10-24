@@ -7,11 +7,11 @@ require "../../authorization/auth.php";
 $ak = "";  // AccessKeyId
 $sk = "";  // SecretAccessKey
 $endpointName = "";  // 实例名称
-$permissionId = "";
+$permissionUuid = "";
 
 $method = "GET";
 $host = "iot.gz.baidubce.com";
-$uri = "/v1/endpoint/{$endpointName}/permission/{$permissionId}";
+$uri = "/v1/endpoint/{$endpointName}/permission/{$permissionUuid}";
 $params = array();
 
 date_default_timezone_set('UTC');

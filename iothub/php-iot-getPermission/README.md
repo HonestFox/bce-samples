@@ -6,10 +6,10 @@
 
 ## 使用方法：
 
-* 第一步：在`getPermission.php`中配置AK/SK，以及endpointName、permissionId。
+* 第一步：在`getPermission.php`中配置AK/SK，以及endpointName、permissionUuid。
 * 第二步：执行命令`php getPermission.php`。
 
-**注意：permissionId 可以通过 [php-iot-getPermissions](../php-iot-getPermissions) 查询。**
+**注意：permissionUuid 可以通过 [php-iot-getPermissions](../php-iot-getPermissions) 查询。**
 
 ## 代码简介：
 
@@ -21,11 +21,11 @@ require "../../authorization/auth.php";
 $ak = "";  // AccessKeyId
 $sk = "";  // SecretAccessKey
 $endpointName = "";  // 实例名称
-$permissionId = "";
+$permissionUuid = "";
 
 $method = "GET";
 $host = "iot.gz.baidubce.com";
-$uri = "/v1/endpoint/{$endpointName}/permission/{$permissionId}";
+$uri = "/v1/endpoint/{$endpointName}/permission/{$permissionUuid}";
 $params = array();
 
 date_default_timezone_set('UTC');
