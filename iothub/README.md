@@ -40,6 +40,7 @@
 | 删除指定的topic | [php-iot-deletePermission](./php-iot-deletePermission) |
 | 为指定的thing绑定principal | [php-iot-attachThingPrincipal](./php-iot-attachThingPrincipal) |
 | 从指定的thing解绑principal | [php-iot-removeThingPrincipal](./php-iot-removeThingPrincipal) |
+| 从指定的principal解绑policy | [php-iot-removePrincipalPolicy](./php-iot-removePrincipalPolicy) |
 
 ## 附：如何查看AVRO文件的内容？
 
