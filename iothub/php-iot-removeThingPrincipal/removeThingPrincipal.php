@@ -30,7 +30,7 @@ $head =  array(
 $body = array(
     "endpointName" => "实例名称",
     "thingName" => "设备名称",
-    "principalName" => "策略名称"
+    "principalName" => "身份名称"
 );
 $bodyStr = json_encode($body);
 
