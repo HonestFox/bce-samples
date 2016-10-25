@@ -9,67 +9,6 @@
 * 第一步：在`removeThingPrincipal.php`中配置AK/SK，以及实例名称、设备名称、身份名称。
 * 第二步：执行命令`php removeThingPrincipal.php`。
 
-## 代码简介：
+---
 
-### 第一步：配置AK/SK，生成认证字符串。
-
-```php
-require "../../authorization/auth.php";
-
-$ak = "";  // AccessKeyId
-$sk = "";  // SecretAccessKey
-
-$method = "POST";
-$host = "iot.gz.baidubce.com";
-$uri = "/v1/action/remove-thing-principal";
-$params = array();
-
-date_default_timezone_set('UTC');
-$timestamp = new \DateTime();
-$expirationInSeconds = 3600;
-
-$authorization = generateAuthorization($ak, $sk, $method, $host, $uri, $params, $timestamp, $expirationInSeconds);
-```
-
-**生成认证字符串的方法，请参考：[auth.php](../../authorization/auth.php)**
-
-### 第二步：构造HTTP请求的URL、Header。
-
-```php
-$url = "http://{$host}{$uri}";
-$timeStr = $timestamp->format("Y-m-d\TH:i:s\Z");
-$head =  array(
-    "Content-Type:application/json",
-    "Authorization:{$authorization}",
-    "x-bce-date:{$timeStr}"
-);
-$body = array(
-    "endpointName" => "实例名称",
-    "thingName" => "设备名称",
-    "principalName" => "身份名称"
-);
-$bodyStr = json_encode($body);
-```
-
-### 第三步：发送HTTP请求，并输出响应信息。
-
-```php
-$curlp = curl_init();
-curl_setopt($curlp, CURLOPT_POST, 1);
-curl_setopt($curlp, CURLOPT_URL, $url);
-curl_setopt($curlp, CURLOPT_HTTPHEADER, $head);
-curl_setopt($curlp, CURLOPT_POSTFIELDS, $bodyStr);
-
-curl_setopt($curlp, CURLINFO_HEADER_OUT, 1);
-curl_setopt($curlp, CURLOPT_RETURNTRANSFER, 1);
-
-$response = curl_exec($curlp);
-$request = curl_getinfo($curlp, CURLINFO_HEADER_OUT);
-$status = curl_getinfo($curlp, CURLINFO_HTTP_CODE);
-curl_close($curlp);
-
-print("request: {$request}\n");
-print("request body: {$bodyStr}\n");
-print("status: {$status}\n");
-print("response: {$response}\n");
-```
+**认证字符串的算法，请参考：[auth.php](../../authorization/auth.php)**
