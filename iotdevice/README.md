@@ -5,3 +5,4 @@
 | 操作 | PHP |
 | :-- | :-- |
 | 创建设备 | [php-iotdm-createDevice](./php-iotdm-createDevice) |
+| 删除设备 | [php-iotdm-deleteDevice](./php-iotdm-deleteDevice) |
