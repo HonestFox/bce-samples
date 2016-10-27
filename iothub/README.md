@@ -20,28 +20,36 @@
 | 获取指定的endpoint信息 | [php-iot-getEndpoint](./php-iot-getEndpoint) |
 | 创建endpoint | [php-iot-createEndpoint](./php-iot-createEndpoint) |
 | 删除endpoint | [php-iot-deleteEndpoint](./php-iot-deleteEndpoint) |
+|
 | 获取thing列表 | [php-iot-getThings](./php-iot-getThings) |
 | 获取指定的thing信息 | [php-iot-getThing](./php-iot-getThing) |
 | 创建thing | [php-iot-createThing](./php-iot-createThing) |
 | 删除thing | [php-iot-deleteThing](./php-iot-deleteThing) |
+|
 | 获取principal列表 | [php-iot-getPrincipals](./php-iot-getPrincipals) |
 | 获取指定的principal信息 | [php-iot-getPrincipal](./php-iot-getPrincipal) |
 | 创建principal | [php-iot-createPrincipal](./php-iot-createPrincipal) |
 | 重新生成principal的密钥 | [php-iot-generatePassword](./php-iot-generatePassword) |
 | 删除principal | [php-iot-deletePrincipal](./php-iot-deletePrincipal) |
+|
 | 获取policy列表 | [php-iot-getPolicies](./php-iot-getPolicies) |
 | 获取指定的policy信息 | [php-iot-getPolicy](./php-iot-getPolicy) |
 | 创建policy | [php-iot-createPolicy](./php-iot-createPolicy) |
 | 删除policy | [php-iot-deletePolicy](./php-iot-deletePolicy) |
+|
 | 获取policy内的所有topic信息 | [php-iot-getPermissions](./php-iot-getPermissions) |
 | 获取指定的topic信息 | [php-iot-getPermission](./php-iot-getPermission) |
 | 在指定的policy内创建topic | [php-iot-createPermission](./php-iot-createPermission) |
 | 修改指定的topic信息 | [php-iot-updatePermission](./php-iot-updatePermission) |
 | 删除指定的topic | [php-iot-deletePermission](./php-iot-deletePermission) |
+|
 | 为指定的thing绑定principal | [php-iot-attachThingPrincipal](./php-iot-attachThingPrincipal) |
 | 从指定的thing解绑principal | [php-iot-removeThingPrincipal](./php-iot-removeThingPrincipal) |
 | 为指定的principal绑定policy | [php-iot-attachPrincipalPolicy](./php-iot-attachPrincipalPolicy) |
 | 从指定的principal解绑policy | [php-iot-removePrincipalPolicy](./php-iot-removePrincipalPolicy) |
+|
+| 认证（通过username/password，获得endpoint信息及principalUuid）| [php-iot-authenticate](./php-iot-authenticate) |
+| 鉴权（指定principalUuid，判断这个principal对某些操作是否有权限） | [php-iot-authorize](./php-iot-authorize) |
 
 ## 附：如何查看AVRO文件的内容？
 
