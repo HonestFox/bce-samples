@@ -6,4 +6,4 @@
 | :-- | :-- |
 | 创建设备 | [php-iotdm-createDevice](./php-iotdm-createDevice) |
 | 删除设备 | [php-iotdm-deleteDevice](./php-iotdm-deleteDevice) |
-| 查看设备的Profile | [php-iotdm-getDeviceProfile](./php-iotdm-getDeviceProfile) |
+| 获取设备Profile | [php-iotdm-getDeviceProfile](./php-iotdm-getDeviceProfile) |
