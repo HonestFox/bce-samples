@@ -17,7 +17,6 @@ $timestamp = new \DateTime();
 $expirationInSeconds = 3600;
 
 $authorization = generateAuthorization($ak, $sk, $method, $host, $uri, $params, $timestamp, $expirationInSeconds);
-print("authorization: {$authorization}\n");
 
 // 第二步：构造HTTP请求的header、body等信息
 
