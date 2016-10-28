@@ -17,4 +17,5 @@
 |
 | 创建设备组 | [php-iotdm-createGroup](./php-iotdm-createGroup) |
 | 删除设备组 | [php-iotdm-deleteGroup](./php-iotdm-deleteGroup) |
-| 更新设备组 | [php-iotdm-updateGroup](./php-iotdm-updateGroup) |
+| 更新设备组信息 | [php-iotdm-updateGroup](./php-iotdm-updateGroup) |
+| 查询设备组信息 | [php-iotdm-getGroup](./php-iotdm-getGroup) |
