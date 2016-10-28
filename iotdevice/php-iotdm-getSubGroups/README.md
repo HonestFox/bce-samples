@@ -1,4 +1,4 @@
-# php-iotdm-getSubGroup
+# php-iotdm-getSubGroups
 
 ## 用途：
 
@@ -8,8 +8,8 @@
 
 ## 使用方法：
 
-* 第一步：在`getSubGroup.php`中配置AK/SK和设备组ID。
-* 第二步：执行命令`php getSubGroup.php`。
+* 第一步：在`getSubGroups.php`中配置AK/SK和设备组ID。
+* 第二步：执行命令`php getSubGroups.php`。
 
 ---
 
