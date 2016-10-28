@@ -20,3 +20,4 @@
 | 更新设备组信息 | [php-iotdm-updateGroup](./php-iotdm-updateGroup) |
 | 查询设备组信息 | [php-iotdm-getGroup](./php-iotdm-getGroup) |
 | 查询指定设备组的所有子节点 | [php-iotdm-getSubGroups](./php-iotdm-getSubGroups) |
+| 查询根目录下的所有设备组 | [php-iotdm-getRootGroups](./php-iotdm-getRootGroups) |
