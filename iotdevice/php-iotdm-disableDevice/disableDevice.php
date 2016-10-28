@@ -28,7 +28,7 @@ $head =  array(
     "x-bce-date:{$timeStr}"
 );
 $body = array(
-    "devices" => array("device01", "device02")
+    "devices" => array("设备名称1", "设备名称2")
 );
 $bodyStr = json_encode($body);
 
