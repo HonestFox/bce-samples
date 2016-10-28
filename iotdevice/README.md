@@ -12,3 +12,4 @@
 | 更新设备的Profile | [php-iotdm-updateDeviceProfile](./php-iotdm-updateDeviceProfile) |
 | 更新设备的注册表信息 | [php-iotdm-updateDeviceRegistry](./php-iotdm-updateDeviceRegistry) |
 | 禁用设备 | [php-iotdm-disableDevice](./php-iotdm-disableDevice) |
+| 启用设备 | [php-iotdm-enableDevice](./php-iotdm-enableDevice) |
