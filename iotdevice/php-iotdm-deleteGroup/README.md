@@ -6,7 +6,7 @@
 
 ## 使用方法：
 
-* 第一步：在`deleteGroup.php`中配置AK/SK和要删除的设备名称。
+* 第一步：在`deleteGroup.php`中配置AK/SK和要删除的设备组ID。
 * 第二步：执行命令`php deleteGroup.php`。
 
 ---

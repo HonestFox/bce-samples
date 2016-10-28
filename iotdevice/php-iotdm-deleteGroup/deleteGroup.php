@@ -11,7 +11,7 @@ $groupId = "";  // 设备组的ID
 $method = "DELETE";
 $host = "iotdm.gz.baidubce.com";
 $uri = "/v1/iot/management/group/{$groupId}";
-$params = array("remove" => "");
+$params = array();
 
 date_default_timezone_set('UTC');
 $timestamp = new \DateTime();
@@ -21,7 +21,7 @@ $authorization = generateAuthorization($ak, $sk, $method, $host, $uri, $params, 
 
 // 第二步：构造HTTP请求的header、body等信息
 
-$url = "http://{$host}{$uri}?remove";
+$url = "http://{$host}{$uri}";
 $timeStr = $timestamp->format("Y-m-d\TH:i:s\Z");
 $head =  array(
     "Content-Type:application/json",
