@@ -6,7 +6,7 @@
 
 ## 使用方法：
 
-* 第一步：在`enableDevice.php`中配置AK/SK和要删除的设备名称。
+* 第一步：在`enableDevice.php`中配置AK/SK和要启用的设备名称。
 * 第二步：执行命令`php enableDevice.php`。
 
 ---
