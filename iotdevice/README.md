@@ -16,3 +16,4 @@
 | 重启设备 | [php-iotdm-rebootDevice](./php-iotdm-rebootDevice) |
 |
 | 创建设备组 | [php-iotdm-createGroup](./php-iotdm-createGroup) |
+| 删除设备组 | [php-iotdm-deleteGroup](./php-iotdm-deleteGroup) |
