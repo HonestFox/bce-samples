@@ -10,3 +10,4 @@
 | 查询设备 | [php-iotdm-getDevices](./php-iotdm-getDevices) |
 | 获取设备的接入详情 | [php-iotdm-getDeviceAccessDetail](./php-iotdm-getDeviceAccessDetail) |
 | 更新设备的Profile | [php-iotdm-updateDeviceProfile](./php-iotdm-updateDeviceProfile) |
+| 更新设备的注册表信息 | [php-iotdm-updateDeviceRegistry](./php-iotdm-updateDeviceRegistry) |
