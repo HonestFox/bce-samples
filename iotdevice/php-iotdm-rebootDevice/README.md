@@ -6,7 +6,7 @@
 
 ## 使用方法：
 
-* 第一步：在`rebootDevice.php`中配置AK/SK和要删除的设备名称。
+* 第一步：在`rebootDevice.php`中配置AK/SK和要重启的设备名称。
 * 第二步：执行命令`php rebootDevice.php`。
 
 **设备端接收到的消息如下：**
