@@ -10,7 +10,7 @@ $sk = "";  // SecretAccessKey
 $method = "POST";
 $host = "iotdm.gz.baidubce.com";
 $uri = "/v1/iot/management/group";
-$params = array("clientToken" => uniqid("", true));
+$params = array("clientToken" => uniqid("", true));  // clientToken相当于requestId
 
 date_default_timezone_set('UTC');
 $timestamp = new \DateTime();
