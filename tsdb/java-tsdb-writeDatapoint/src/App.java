@@ -49,6 +49,7 @@ public class App {
 //                .addDoubleValue(System.currentTimeMillis(), 0.1)
 //                .addLongValue(System.currentTimeMillis(), 99)
 //                .addStringValue(System.currentTimeMillis(), "hello world")
+//                .addBytesValue(System.currentTimeMillis(), new byte[] {0x01, 0x02})
 //        );
 //        WriteDatapointsResponse response = client.writeDatapoints(datapoints);
 //        System.out.println(response.getMetadata());
