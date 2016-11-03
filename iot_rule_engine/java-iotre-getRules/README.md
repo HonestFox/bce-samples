@@ -1,8 +1,13 @@
-# java-sdk-getRules
+# java-iotre-getRules
 
 ## 用途：
 
 查看所有规则。
+
+## 使用方法：
+
+* 第一步：在`App.java`中填写AK/SK。
+* 第二步：编译执行`App.java`。
 
 ## 注意事项：
 

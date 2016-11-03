@@ -28,29 +28,33 @@ public class App {
             response = client.listRules(request);
 
             for (Rule rule: response.getResult()) {
-                String info = "uuid: " + rule.getUuid() + "\n"
-                        + "\tname: " + rule.getName() + "\n"
-                        + "\tdescription: " + rule.getDescription() + "\n"
-                        + "\tendpoint: " + rule.getEndpoint() + "\n"
-                        + "\tendpoint uuid: " + rule.getEndpointUuid() + "\n"
-                        + "\tselect: " + rule.getSelect() + "\n"
-                        + "\tfrom: " + rule.getFrom() + "\n"
-                        + "\twhere: " + rule.getWhere() + "\n"
-                        + "\tstate: " + rule.getState() + "\n"
-                        + "\tcreate time: " + rule.getCreateTime() + "\n"
-                        + "\tupdate time: " + rule.getUpdateTime() + "\n"
-                        + "\tdestinations:" + "\n";
-
-                for (Destination destination: rule.getDestinations()) {
-                    info = info + "\t\tuuid: " + destination.getUuid() + "\n"
-                        + "\t\t\trule uuid: " + destination.getRuleUuid() + "\n"
-                        + "\t\t\tkind: " + destination.getKind() + "\n"
-                        + "\t\t\tvalue: " + destination.getValue() + "\n"
-                        + "\t\t\tstatus: " + destination.getStatus() + "\n";
-                }
-
-                logger.info(info);
+                printRule(rule);
             }
         } while (response != null && response.getPageNo() * response.getPageSize() < response.getTotalCount());
+    }
+
+    private static void printRule(Rule rule) {
+        String info = "uuid: " + rule.getUuid() + "\n"
+                + "\tname: " + rule.getName() + "\n"
+                + "\tdescription: " + rule.getDescription() + "\n"
+                + "\tendpoint: " + rule.getEndpoint() + "\n"
+                + "\tendpoint uuid: " + rule.getEndpointUuid() + "\n"
+                + "\tselect: " + rule.getSelect() + "\n"
+                + "\tfrom: " + rule.getFrom() + "\n"
+                + "\twhere: " + rule.getWhere() + "\n"
+                + "\tstate: " + rule.getState() + "\n"
+                + "\tcreate time: " + rule.getCreateTime() + "\n"
+                + "\tupdate time: " + rule.getUpdateTime() + "\n"
+                + "\tdestinations:" + "\n";
+
+        for (Destination destination: rule.getDestinations()) {
+            info = info + "\t\tuuid: " + destination.getUuid() + "\n"
+                    + "\t\t\trule uuid: " + destination.getRuleUuid() + "\n"
+                    + "\t\t\tkind: " + destination.getKind() + "\n"
+                    + "\t\t\tvalue: " + destination.getValue() + "\n"
+                    + "\t\t\tstatus: " + destination.getStatus() + "\n";
+        }
+
+        logger.info(info);
     }
 }
