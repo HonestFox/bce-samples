@@ -1,8 +1,13 @@
-# java-sdk-createRule
+# java-iotre-createRule
 
 ## 用途：
 
 创建规则。
+
+## 使用方法：
+
+* 第一步：在`App.java`中填写AK/SK，和要创建的规则的相关信息。
+* 第二步：编译执行`App.java`。
 
 ## 注意事项：
 
