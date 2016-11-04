@@ -8,3 +8,4 @@
 | 启用某一条规则 | [java-iotre-enableRule](./java-iotre-enableRule) |
 | 禁用某一条规则 | [java-iotre-disableRule](./java-iotre-disableRule) |
 | 修改某一条规则 | [java-iotre-updateRule](./java-iotre-updateRule) |
+| 为某一条规则增加一个目的地 | [java-iotre-addDestination](./java-iotre-addDestination) |
