@@ -6,3 +6,4 @@
 | 查看所有规则 | [java-iotre-getRules](./java-iotre-getRules) |
 | 查看单个规则的详情 | [java-iotre-getRule](./java-iotre-getRule) |
 | 启用某一条规则 | [java-iotre-enableRule](./java-iotre-enableRule) |
+| 禁用某一条规则 | [java-iotre-disableRule](./java-iotre-disableRule) |
