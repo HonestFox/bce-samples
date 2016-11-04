@@ -7,3 +7,4 @@
 | 查看单个规则的详情 | [java-iotre-getRule](./java-iotre-getRule) |
 | 启用某一条规则 | [java-iotre-enableRule](./java-iotre-enableRule) |
 | 禁用某一条规则 | [java-iotre-disableRule](./java-iotre-disableRule) |
+| 修改某一条规则 | [java-iotre-updateRule](./java-iotre-updateRule) |
