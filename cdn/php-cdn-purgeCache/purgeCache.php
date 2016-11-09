@@ -17,6 +17,7 @@ $timestamp = new \DateTime();
 $expirationInSeconds = 3600;
 
 $authorization = generateAuthorization($ak, $sk, $method, $host, $uri, $params, $timestamp, $expirationInSeconds);
+print($authorization . "\n");
 
 // 第二步：构造HTTP请求的header、body等信息
 
@@ -57,6 +58,7 @@ $status = curl_getinfo($curlp, CURLINFO_HTTP_CODE);
 curl_close($curlp);
 
 print("request: {$request}\n");
+print("request body: {$bodyStr}\n");
 print("status: {$status}\n");
 print("response: {$response}\n");
 
