@@ -12,11 +12,11 @@
 | 订阅消息 | TCP | [java-iot-sub-tcp](./java-iot-sub-tcp) | [python-iot-sub-tcp](./python-iot-sub-tcp) |||
 | 订阅消息 | WSS(WebSockets) ||| [js-iot-sub-wss](./js-iot-sub-wss) ||
 
-## 使用iothub的API来操作实例
+## 使用iothub的API/SDK来操作实例
 
-| 操作 | PHP | Java |
+| 操作 | PHP (API) | Java (SDK) |
 | :-- | :-- | :-- |
-| 获取endpoint列表 | [php-iot-getEndpoints](./php-iot-getEndpoints) |
+| 获取endpoint列表 | [php-iot-getEndpoints](./php-iot-getEndpoints) | [java-iot-getEndpoints](./java-iot-getEndpoints) |
 | 获取指定的endpoint信息 | [php-iot-getEndpoint](./php-iot-getEndpoint) |
 | 创建endpoint | [php-iot-createEndpoint](./php-iot-createEndpoint) | [java-iot-createEndpoint](./java-iot-createEndpoint) |
 | 删除endpoint | [php-iot-deleteEndpoint](./php-iot-deleteEndpoint) |
