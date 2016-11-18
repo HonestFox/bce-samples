@@ -14,11 +14,11 @@
 
 ## 使用iothub的API来操作实例
 
-| 操作 | PHP |
-| :-- | :-- |
+| 操作 | PHP | Java |
+| :-- | :-- | :-- |
 | 获取endpoint列表 | [php-iot-getEndpoints](./php-iot-getEndpoints) |
 | 获取指定的endpoint信息 | [php-iot-getEndpoint](./php-iot-getEndpoint) |
-| 创建endpoint | [php-iot-createEndpoint](./php-iot-createEndpoint) |
+| 创建endpoint | [php-iot-createEndpoint](./php-iot-createEndpoint) | [java-iot-createEndpoint](./java-iot-createEndpoint) |
 | 删除endpoint | [php-iot-deleteEndpoint](./php-iot-deleteEndpoint) |
 |
 | 获取thing列表 | [php-iot-getThings](./php-iot-getThings) |
