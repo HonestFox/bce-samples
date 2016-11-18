@@ -19,7 +19,7 @@
 | 获取endpoint列表 | [php-iot-getEndpoints](./php-iot-getEndpoints) | [java-iot-getEndpoints](./java-iot-getEndpoints) |
 | 获取指定的endpoint信息 | [php-iot-getEndpoint](./php-iot-getEndpoint) |
 | 创建endpoint | [php-iot-createEndpoint](./php-iot-createEndpoint) | [java-iot-createEndpoint](./java-iot-createEndpoint) |
-| 删除endpoint | [php-iot-deleteEndpoint](./php-iot-deleteEndpoint) |
+| 删除endpoint | [php-iot-deleteEndpoint](./php-iot-deleteEndpoint) | [java-iot-deleteEndpoint](./java-iot-deleteEndpoint) |
 |
 | 获取thing列表 | [php-iot-getThings](./php-iot-getThings) |
 | 获取指定的thing信息 | [php-iot-getThing](./php-iot-getThing) |
