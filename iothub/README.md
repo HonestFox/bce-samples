@@ -23,7 +23,7 @@
 |
 | 获取thing列表 | [php-iot-getThings](./php-iot-getThings) |
 | 获取指定的thing信息 | [php-iot-getThing](./php-iot-getThing) |
-| 创建thing | [php-iot-createThing](./php-iot-createThing) |
+| 创建thing | [php-iot-createThing](./php-iot-createThing) | [java-iot-createThing](./java-iot-createThing) |
 | 删除thing | [php-iot-deleteThing](./php-iot-deleteThing) |
 |
 | 获取principal列表 | [php-iot-getPrincipals](./php-iot-getPrincipals) |
