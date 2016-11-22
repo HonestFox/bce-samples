@@ -1,8 +1,8 @@
 # SMS Samples
 
-| 操作 | Java (SDK) | Python (SDK) | C (SDK) | PHP (API) | PHP（API v2） |
-| :-- | :-- | :-- | :-- | :-- | :-- |
-| 发送短信 | [java-sms-sendMessage](./java-sms-sendMessage) | [python-sms-sendMessage](./python-sms-sendMessage) || [php-sms-sendMessage](./php-sms-sendMessage) | [php-sms-sendMessage-v2](./php-sms-sendMessage-v2) |
+| 操作 | Java (SDK) | Python (SDK) | C (SDK) | PHP (API) | PHP（API v2） | Java (SDK v2) |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| 发送短信 | [java-sms-sendMessage](./java-sms-sendMessage) | [python-sms-sendMessage](./python-sms-sendMessage) || [php-sms-sendMessage](./php-sms-sendMessage) | [php-sms-sendMessage-v2](./php-sms-sendMessage-v2) | [java-sms-sendMessage-v2](./java-sms-sendMessage-v2) |
 | 查询短信详情 | [java-sms-queryMessage](./java-sms-queryMessage) | [python-sms-queryMessage](./python-sms-queryMessage) || [php-sms-queryMessage](./php-sms-queryMessage) ||
 |
 | 创建短信模板 | [java-sms-createTemplate](./java-sms-createTemplate) | [python-sms-createTemplate](./python-sms-createTemplate) || [php-sms-createTemplate](./php-sms-createTemplate) | [php-sms-createTemplate-v2](./php-sms-createTemplate-v2) |
