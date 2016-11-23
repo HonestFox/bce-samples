@@ -5,7 +5,7 @@
 | 发送短信 | [java-sms-sendMessage](./java-sms-sendMessage) | [python-sms-sendMessage](./python-sms-sendMessage) || [php-sms-sendMessage](./php-sms-sendMessage) | [php-sms-sendMessage-v2](./php-sms-sendMessage-v2) | [java-sms-sendMessage-v2](./java-sms-sendMessage-v2) | [python-sms-sendMessage-v2](./python-sms-sendMessage-v2) |
 | 查询短信详情 | [java-sms-queryMessage](./java-sms-queryMessage) | [python-sms-queryMessage](./python-sms-queryMessage) || [php-sms-queryMessage](./php-sms-queryMessage) ||
 |
-| 创建短信模板 | [java-sms-createTemplate](./java-sms-createTemplate) | [python-sms-createTemplate](./python-sms-createTemplate) || [php-sms-createTemplate](./php-sms-createTemplate) | [php-sms-createTemplate-v2](./php-sms-createTemplate-v2) | [java-sms-createTemplate-v2](./java-sms-createTemplate-v2) |
+| 创建短信模板 | [java-sms-createTemplate](./java-sms-createTemplate) | [python-sms-createTemplate](./python-sms-createTemplate) || [php-sms-createTemplate](./php-sms-createTemplate) | [php-sms-createTemplate-v2](./php-sms-createTemplate-v2) | [java-sms-createTemplate-v2](./java-sms-createTemplate-v2) | [python-sms-createTemplate-v2](./python-sms-createTemplate-v2) |
 | 查询单个短信模板 | [java-sms-getTemplate](./java-sms-getTemplate) | [python-sms-getTemplate](./python-sms-getTemplate) || [php-sms-getTemplate](./php-sms-getTemplate) ||
 | 获取短信模板列表 | [java-sms-listTemplate](./java-sms-listTemplate) | [python-sms-listTemplate](./python-sms-listTemplate) || [php-sms-listTemplate](./php-sms-listTemplate) ||
 | 删除短信模板 | [java-sms-deleteTemplate](./java-sms-deleteTemplate) | [python-sms-deleteTemplate](./python-sms-deleteTemplate) || [php-sms-deleteTemplate](./php-sms-deleteTemplate) ||
