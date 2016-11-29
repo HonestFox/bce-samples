@@ -26,7 +26,7 @@
 | 创建thing | [php-iot-createThing](./php-iot-createThing) | [java-iot-createThing](./java-iot-createThing) |
 | 删除thing | [php-iot-deleteThing](./php-iot-deleteThing) | [java-iot-deleteThing](./java-iot-deleteThing) |
 |
-| 获取principal列表 | [php-iot-getPrincipals](./php-iot-getPrincipals) |
+| 获取principal列表 | [php-iot-getPrincipals](./php-iot-getPrincipals) | [java-iot-getPrincipals](./java-iot-getPrincipals) |
 | 获取指定的principal信息 | [php-iot-getPrincipal](./php-iot-getPrincipal) |
 | 创建principal | [php-iot-createPrincipal](./php-iot-createPrincipal) | [java-iot-createPrincipal](./java-iot-createPrincipal) |
 | 重新生成principal的密钥 | [php-iot-generatePassword](./php-iot-generatePassword) |
