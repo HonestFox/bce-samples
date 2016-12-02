@@ -38,7 +38,7 @@
 | 删除policy | [php-iot-deletePolicy](./php-iot-deletePolicy) | [java-iot-deletePolicy](./java-iot-deletePolicy) |
 |
 | 获取policy内的所有topic信息 | [php-iot-getPermissions](./php-iot-getPermissions) | [java-iot-getPermissions](./java-iot-getPermissions) |
-| 获取指定的topic信息 | [php-iot-getPermission](./php-iot-getPermission) |
+| 获取指定的topic信息 | [php-iot-getPermission](./php-iot-getPermission) | [java-iot-getPermission](./java-iot-getPermission) |
 | 在指定的policy内创建topic | [php-iot-createPermission](./php-iot-createPermission) | [java-iot-createPermission](./java-iot-createPermission) |
 | 修改指定的topic信息 | [php-iot-updatePermission](./php-iot-updatePermission) |
 | 删除指定的topic | [php-iot-deletePermission](./php-iot-deletePermission) |
