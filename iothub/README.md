@@ -33,7 +33,7 @@
 | 删除principal | [php-iot-deletePrincipal](./php-iot-deletePrincipal) | [java-iot-deletePrincipal](./java-iot-deletePrincipal) |
 |
 | 获取policy列表 | [php-iot-getPolicies](./php-iot-getPolicies) | [java-iot-getPolicies](./java-iot-getPolicies) |
-| 获取指定的policy信息 | [php-iot-getPolicy](./php-iot-getPolicy) |
+| 获取指定的policy信息 | [php-iot-getPolicy](./php-iot-getPolicy) | [java-iot-getPolicy](./java-iot-getPolicy) |
 | 创建policy | [php-iot-createPolicy](./php-iot-createPolicy) | [java-iot-createPolicy](./java-iot-createPolicy) |
 | 删除policy | [php-iot-deletePolicy](./php-iot-deletePolicy) |
 |
