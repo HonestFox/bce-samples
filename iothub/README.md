@@ -44,7 +44,7 @@
 | 删除指定的topic | [php-iot-deletePermission](./php-iot-deletePermission) |
 |
 | 为指定的thing绑定principal | [php-iot-attachThingPrincipal](./php-iot-attachThingPrincipal) |
-| 从指定的thing解绑principal | [php-iot-detachThingPrincipal](./php-iot-detachThingPrincipal) |
+| 从指定的thing解绑principal | [php-iot-detachThingPrincipal](./php-iot-detachThingPrincipal) | [java-iot-detachThingPrincipal](./java-iot-detachThingPrincipal) |
 | 为指定的principal绑定policy | [php-iot-attachPrincipalPolicy](./php-iot-attachPrincipalPolicy) |
 | 从指定的principal解绑policy | [php-iot-detachPrincipalPolicy](./php-iot-detachPrincipalPolicy) |
 |
