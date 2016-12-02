@@ -45,7 +45,7 @@
 |
 | 为指定的thing绑定principal | [php-iot-attachThingPrincipal](./php-iot-attachThingPrincipal) | [java-iot-attachThingPrincipal](./java-iot-attachThingPrincipal) |
 | 从指定的thing解绑principal | [php-iot-detachThingPrincipal](./php-iot-detachThingPrincipal) | [java-iot-detachThingPrincipal](./java-iot-detachThingPrincipal) |
-| 为指定的principal绑定policy | [php-iot-attachPrincipalPolicy](./php-iot-attachPrincipalPolicy) |
+| 为指定的principal绑定policy | [php-iot-attachPrincipalPolicy](./php-iot-attachPrincipalPolicy) | [java-iot-attachPrincipalPolicy](./java-iot-attachPrincipalPolicy) |
 | 从指定的principal解绑policy | [php-iot-detachPrincipalPolicy](./php-iot-detachPrincipalPolicy) | [java-iot-detachPrincipalPolicy](./java-iot-detachPrincipalPolicy) |
 |
 | 认证（通过username/password，获得endpoint信息及principalUuid）| [php-iot-authenticate](./php-iot-authenticate) |
