@@ -7,8 +7,8 @@
 ## 使用方法：
 
 * 第一步：在`App.java`中配置AK/SK，以及endpointName、policyName。
-* 第二步：执行`App::main`。
+* 第二步：执行`App::main`方法。
 
 ---
 
-**认证字符串的算法，请参考：[auth.php](../../authorization/auth.php)**
+bce-java-sdk 下载链接：[https://cloud.baidu.com/doc/Downloadcenter/Java.html](https://cloud.baidu.com/doc/Downloadcenter/Java.html)
