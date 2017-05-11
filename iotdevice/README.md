@@ -14,7 +14,7 @@
 | 禁用设备 | [php-iotdm-disableDevice](./php-iotdm-disableDevice) |
 | 启用设备 | [php-iotdm-enableDevice](./php-iotdm-enableDevice) |
 | 重启设备 | [php-iotdm-rebootDevice](./php-iotdm-rebootDevice) |
-|
+|||
 | 创建设备组 | [php-iotdm-createGroup](./php-iotdm-createGroup) |
 | 删除设备组 | [php-iotdm-deleteGroup](./php-iotdm-deleteGroup) |
 | 更新设备组信息 | [php-iotdm-updateGroup](./php-iotdm-updateGroup) |

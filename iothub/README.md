@@ -7,7 +7,7 @@
 | 发布消息 | SSL | [java-iot-pub-ssl](./java-iot-pub-ssl) | [python-iot-pub-ssl](./python-iot-pub-ssl) || [c-iot-pub-ssl](./c-iot-pub-ssl) |
 | 发布消息 | TCP | [java-iot-pub-tcp](./java-iot-pub-tcp) | [python-iot-pub-tcp](./python-iot-pub-tcp) |||
 | 发布消息 | WSS(WebSockets) ||| [js-iot-pub-wss](./js-iot-pub-wss) ||
-|
+|||||||
 | 订阅消息 | SSL | [java-iot-sub-ssl](./java-iot-sub-ssl) | [python-iot-sub-ssl](./python-iot-sub-ssl) || [c-iot-sub-ssl](./c-iot-sub-ssl) |
 | 订阅消息 | TCP | [java-iot-sub-tcp](./java-iot-sub-tcp) | [python-iot-sub-tcp](./python-iot-sub-tcp) |||
 | 订阅消息 | WSS(WebSockets) ||| [js-iot-sub-wss](./js-iot-sub-wss) ||
@@ -20,34 +20,34 @@
 | 获取指定的endpoint信息 | [php-iot-getEndpoint](./php-iot-getEndpoint) | [java-iot-getEndpoint](./java-iot-getEndpoint) |
 | 创建endpoint | [php-iot-createEndpoint](./php-iot-createEndpoint) | [java-iot-createEndpoint](./java-iot-createEndpoint) |
 | 删除endpoint | [php-iot-deleteEndpoint](./php-iot-deleteEndpoint) | [java-iot-deleteEndpoint](./java-iot-deleteEndpoint) |
-|
+||||
 | 获取thing列表 | [php-iot-getThings](./php-iot-getThings) | [java-iot-getThings](./java-iot-getThings) |
 | 获取指定的thing信息 | [php-iot-getThing](./php-iot-getThing) | [java-iot-getThing](./java-iot-getThing) |
 | 创建thing | [php-iot-createThing](./php-iot-createThing) | [java-iot-createThing](./java-iot-createThing) |
 | 删除thing | [php-iot-deleteThing](./php-iot-deleteThing) | [java-iot-deleteThing](./java-iot-deleteThing) |
-|
+||||
 | 获取principal列表 | [php-iot-getPrincipals](./php-iot-getPrincipals) | [java-iot-getPrincipals](./java-iot-getPrincipals) |
 | 获取指定的principal信息 | [php-iot-getPrincipal](./php-iot-getPrincipal) | [java-iot-getPrincipal](./java-iot-getPrincipal) |
 | 创建principal | [php-iot-createPrincipal](./php-iot-createPrincipal) | [java-iot-createPrincipal](./java-iot-createPrincipal) |
 | 重新生成principal的密钥 | [php-iot-generatePassword](./php-iot-generatePassword) | [java-iot-generatePassword](./java-iot-generatePassword) |
 | 删除principal | [php-iot-deletePrincipal](./php-iot-deletePrincipal) | [java-iot-deletePrincipal](./java-iot-deletePrincipal) |
-|
+||||
 | 获取policy列表 | [php-iot-getPolicies](./php-iot-getPolicies) | [java-iot-getPolicies](./java-iot-getPolicies) |
 | 获取指定的policy信息 | [php-iot-getPolicy](./php-iot-getPolicy) | [java-iot-getPolicy](./java-iot-getPolicy) |
 | 创建policy | [php-iot-createPolicy](./php-iot-createPolicy) | [java-iot-createPolicy](./java-iot-createPolicy) |
 | 删除policy | [php-iot-deletePolicy](./php-iot-deletePolicy) | [java-iot-deletePolicy](./java-iot-deletePolicy) |
-|
+||||
 | 获取policy内的所有topic信息 | [php-iot-getPermissions](./php-iot-getPermissions) | [java-iot-getPermissions](./java-iot-getPermissions) |
 | 获取指定的topic信息 | [php-iot-getPermission](./php-iot-getPermission) | [java-iot-getPermission](./java-iot-getPermission) |
 | 在指定的policy内创建topic | [php-iot-createPermission](./php-iot-createPermission) | [java-iot-createPermission](./java-iot-createPermission) |
 | 修改指定的topic信息 | [php-iot-updatePermission](./php-iot-updatePermission) | [java-iot-updatePermission](./java-iot-updatePermission) |
 | 删除指定的topic | [php-iot-deletePermission](./php-iot-deletePermission) | [java-iot-deletePermission](./java-iot-deletePermission) |
-|
+||||
 | 为指定的thing绑定principal | [php-iot-attachThingPrincipal](./php-iot-attachThingPrincipal) | [java-iot-attachThingPrincipal](./java-iot-attachThingPrincipal) |
 | 从指定的thing解绑principal | [php-iot-detachThingPrincipal](./php-iot-detachThingPrincipal) | [java-iot-detachThingPrincipal](./java-iot-detachThingPrincipal) |
 | 为指定的principal绑定policy | [php-iot-attachPrincipalPolicy](./php-iot-attachPrincipalPolicy) | [java-iot-attachPrincipalPolicy](./java-iot-attachPrincipalPolicy) |
 | 从指定的principal解绑policy | [php-iot-detachPrincipalPolicy](./php-iot-detachPrincipalPolicy) | [java-iot-detachPrincipalPolicy](./java-iot-detachPrincipalPolicy) |
-|
+||||
 | 认证（通过username/password，获得endpoint信息及principalUuid）| [php-iot-authenticate](./php-iot-authenticate) |
 | 鉴权（指定principalUuid，判断这个principal对某些操作是否有权限） | [php-iot-authorize](./php-iot-authorize) |
 
