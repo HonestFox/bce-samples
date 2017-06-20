@@ -2,8 +2,10 @@
 
 ## 使用iotdm的API来操作实例
 
-| 操作 | PHP |
-| :-- | :-- |
+| 操作 | PHP | PHP (v2) |
+| :-- | :-- | :-- |
+| 创建 iothub 实例 || [php-iotdm-createEndpoint-v2](./php-iotdm-createEndpoint-v2) |
+||||
 | 创建设备 | [php-iotdm-createDevice](./php-iotdm-createDevice) |
 | 删除设备 | [php-iotdm-deleteDevice](./php-iotdm-deleteDevice) |
 | 获取设备的Profile | [php-iotdm-getDeviceProfile](./php-iotdm-getDeviceProfile) |
