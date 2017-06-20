@@ -8,7 +8,7 @@
 | 获取 iothub 实例列表 || [php-iotdm-getEndpoints-v2](./php-iotdm-getEndpoints-v2) |
 | 删除 iothub 实例 || [php-iotdm-deleteEndpoint-v2](./php-iotdm-deleteEndpoint-v2) |
 ||||
-| 创建设备 | [php-iotdm-createDevice](./php-iotdm-createDevice) |
+| 创建设备 | [php-iotdm-createDevice](./php-iotdm-createDevice) | [php-iotdm-createDevice-v2](./php-iotdm-createDevice-v2) |
 | 删除设备 | [php-iotdm-deleteDevice](./php-iotdm-deleteDevice) |
 | 获取设备的Profile | [php-iotdm-getDeviceProfile](./php-iotdm-getDeviceProfile) |
 | 查询设备 | [php-iotdm-getDevices](./php-iotdm-getDevices) |
