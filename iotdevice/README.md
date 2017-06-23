@@ -12,7 +12,7 @@
 | 删除设备 | [php-iotdm-deleteDevice](./php-iotdm-deleteDevice) | [php-iotdm-deleteDevice-v2](./php-iotdm-deleteDevice-v2) |
 | 获取设备的Profile | [php-iotdm-getDeviceProfile](./php-iotdm-getDeviceProfile) | [php-iotdm-getDeviceProfile-v2](./php-iotdm-getDeviceProfile-v2) |
 | 查询设备 | [php-iotdm-getDevices](./php-iotdm-getDevices) | [php-iotdm-getDevices-v2](./php-iotdm-getDevices-v2) |
-| 获取设备的接入详情 | [php-iotdm-getDeviceAccessDetail](./php-iotdm-getDeviceAccessDetail) |
+| 获取设备的接入详情 | [php-iotdm-getDeviceAccessDetail](./php-iotdm-getDeviceAccessDetail) | [php-iotdm-getDeviceAccessDetail-v2](./php-iotdm-getDeviceAccessDetail-v2) |
 | 更新设备的Profile | [php-iotdm-updateDeviceProfile](./php-iotdm-updateDeviceProfile) |
 | 更新设备的注册表信息 | [php-iotdm-updateDeviceRegistry](./php-iotdm-updateDeviceRegistry) |
 | 禁用设备 | [php-iotdm-disableDevice](./php-iotdm-disableDevice) |
